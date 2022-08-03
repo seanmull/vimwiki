@@ -1,0 +1,9 @@
+Set up for minikube
+
+Minikube - sets up a single node kube cluster that is available on the cloud
+in an iso image
+
+Minikube has a command that will take the iso and deploy it on a VM.
+Kubectl is the command line tool needed to interact with K8
+
+May need to clear the config files if you have problems with docker socket

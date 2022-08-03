@@ -1,0 +1,62 @@
+Telepresence
+
+Reduces inner loop pain
+
+Inner loop -> code -> build -> test -> commit
+Outer loop -> push it into deploy
+           -> same as inner loop it makes the work double
+           
+Want to avoid docker build/ push
+Want to use my own tools
+
+Can I work on it all on my systems -
+    too reasource heavy
+    
+Its like putting your local laptop in a kube
+cluster
+
+Creates a network bridge
+
+How it works
+1. It swaps the deployment with a proxy
+2. Requests the proxy be sent to the laptop
+Any inbound traffic gets directed to your local
+machine
+Send the traffic back into cluster
+
+It also
+1. Intercepts DNS
+2. Environment variables and secrets
+3. Volumes
+4. TCP in addition to HTTP
+
+You are in the namespace and same filesystem
+
+Benefits
+  Any tools that works on your laptop can be used
+  Manipulate the traffic
+  Connect to cloud-based reasources can be accessed 
+  Same network namesspace (nslookup works)
+  Very fast inner loop
+  
+Simple workflow
+Testing in production is risky
+1. One cluster that is single source of truth
+2. Developer checks out code and works on microservices
+3. Swapping services on demand using telepresence + IDE
+4. Telepresence is used in vpn-tcp mode
+5. Once code is done, microserveces are build and deployed via pipeline
+
+Typical workflow
+1. One dev cluster for single source of truth
+2. Devs check out one of the microservices (this needs to be coordated with other since others may be using something that depends on what you using)
+3. Dev Telepresence and IDE
+4. Vpn-tcp mode
+5. Once code is done, CircleCI is used to run tests, build and deploy
+
+
+Telepresence proxies to dev machine into the
+cluster
+
+
+

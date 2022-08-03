@@ -1,0 +1,22 @@
+Node - a worker machine in which kubernetes is installed
+Cluster - a set of nodes, allows you to share the load over similar node
+Master - a node configured a master
+Components
+1. API server - front end of kubernetes cluster
+2. ETCD - key-value store used to manage the cluster
+3. Shedule - distributeing work accoss the node
+4. Controller - make the decisions about nodes failing
+5. Container runtime - software used to run the containers
+6. Kubelet - the agent seeing if the containers run as they should
+
+Master
+1. Api server
+2. etcd
+3. controller
+4. scheduler
+
+
+Worker
+1. Kubelet
+
+kubectl - k8 command line tools

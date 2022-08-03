@@ -1,0 +1,9 @@
+## Simple todo list
+
+1. [[Figure out how to get access to EKS cluster]]
+2. Study basic [[concepts]] of kubernetes
+4. Watch [[video]] sharan gave me
+5. Start going through instructions sarmed gave for telepresence
+6. Sharans [[lecture]]
+7. Find out out why I cannot get higher resolution for my monitor
+8. 

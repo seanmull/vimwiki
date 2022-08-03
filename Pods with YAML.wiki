@@ -1,0 +1,30 @@
+pod definition files includes
+
+apiVersion: 
+kind: POD
+// this needs to be unchanged but you can add
+// to labels
+metadata: //dictionary
+  name: myapp-pod 
+  labels:
+    app: myapp
+
+
+spec:  //format verys
+  containers:
+    - names: nginx-container
+    - image: nginx
+
+
+Kind          Version
+POD           v1
+Service       v1
+ReplicaSet    apps/v1
+Deployment    apps/v1
+
+kubectl create -f <name of pod file>
+
+Basic workflow with pods
+kubectl get pods
+Getting more discription about the pod
+kubectl describe pod <name of pod>

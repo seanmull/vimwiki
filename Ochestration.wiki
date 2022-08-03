@@ -1,0 +1,7 @@
+Orhestration is a process that allows for overseeing of docker hosts.  Part
+of overseeing the hosts is to monitor health (if it crashes), provide load balencing
+when the load gets too high.   Kubernetes is one of these ochestration technolgies.
+
+Advantages
+Its highly available (because of load balencing) by scaling up and down
+

@@ -1,0 +1,21 @@
+Deployment
+
+Cloud services starting up multiple instances of app
+Upgrade functionality should be done seemless (rolling updates)
+Say you have an issue with one of the updates you would want to rollback the update
+Modifying environemental variables
+Ability to pause and restart containers when you make changes
+
+Pod | Pod | Pod
+  ReplicaSet
+  Deployment
+  
+Deployments incapolate everything
+
+Definition file is similar to replicaSet except the kind is deployment
+
+kubectl create -f <name of yaml defintion file>
+kubectl get deployments
+kubectl get replicaset
+kubectl get pods
+kubectl get all // this will give us all deployments/replicasets/pods

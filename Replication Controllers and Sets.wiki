@@ -1,0 +1,54 @@
+If one application fails we can have a failsafe
+
+The replication controller will allow us
+to manage multiple instances of an application
+this will allow us to higher availablility
+
+Even if we have one pod and that fails the controller
+can recover that one
+
+Along with fail safety the controller will provide load balencing
+These controllers can span across multiple nodes as well as pods
+
+Controller is the older technology that is replaced with replica set
+
+// replica controllers
+apiversion: v1
+kind: ReplicationController
+metadata:
+  name: myapp-rcc
+  labels: 
+    app: myapp
+    type: frontend
+spec:
+  template:
+     <everything from the pod excluding apiversion and kind>
+  replicas: 3
+  
+// replica sets everything that is different
+apiversion: apps/v1
+kind: ReplicaSet
+..
+..
+selector: // this includes pods that were not linked initially in the creation
+  matchlabels:
+    type: frondend
+  
+kubectl create -f rc-definition.yml
+kubectl get ReplicaSet
+kubectl get pods
+
+replica set is a process that monitors the pods in case any of them go down
+labels help replica set to help find which pods need to be monitors
+
+if you delete a pod in a replicaset it will create a new one
+if you add a pod with the same label as the replica set it will terminate it
+
+to scale replicas
+kubectl replace -f replicaset_definition.yaml
+kubectl scale --replicas=6 -f replicaset_definition
+kubectl delete replicaset myappreplicaset  // also deletes pods
+kubectl edit replicaset myappreplicaset // edit the as running config of the replica set
+Note: this doesn't actually scale but changes the file
+     
+     

@@ -1,0 +1,21 @@
+Containers are contained in a pod.  
+You can have two different pods on a node.
+One container per container
+You can have more then one container per pod
+You can have helper containers and they need to be along
+the application
+They can share the same network space
+The can share volumes
+
+
+image downloaded from the docker hub
+kubectl run nginx --image nginx
+
+gives us the state of the pods
+kubectl get pods
+
+give us the status of a pod such as IP, status
+kubectl describe pod nginx
+
+
+

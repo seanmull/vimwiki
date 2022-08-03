@@ -1,0 +1,23 @@
+Steps to set up
+ 
+
+aws configure sso
+
+https://nightlifesso.awsapps.com/start#/
+
+Select the account you want to connect to
+
+Enter ap-southeast-2 when prompted for any region
+
+Enter desired profile name
+
+aws --profile <profile added in step 1, 4> sso login
+
+aws --profile <profile added in step 1, 4> eks update-kubeconfig --name nightlife-<environment name>-eks-cluster
+
+ 
+
+Steps to verify
+kubectl config get-contexts : You should see the nightlife-<environment name>-eks cluster in the list 
+
+kubectl get pods: You should see the running pods in the cluster

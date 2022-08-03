@@ -1,0 +1,24 @@
+Format
+
+Key-Value pair
+Fruit : Apple
+
+Array
+Fruits:
+  - Orange
+  - Apple
+  - Banana
+
+Dictionary/Map
+Banana:
+ Calories: 105
+ Fat: 0.4 g
+ 
+Note: spaces have to be the same
+Any missmatches will indicate nested propeties
+
+Lists/ Key-values/ Dictionary/map can all be nested
+
+Dictionary is unordered
+List is ordered
+

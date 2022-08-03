@@ -1,0 +1,25 @@
+Application depend on an underlaying infrastructer.  Example applications could
+be node server, mongoDB database, messaging service such as redis.  These are what
+make up the application.  However to make the application run in predicable manner
+they need an underlaying infresture that support it such as libraries, OS software,
+hardware drivers.  The problem with this set up is that it is fragile.  If you make
+one change to the application in one service it can cause problems for other services.
+This forms a complex matrix between all the application an infreatrues.  Its complex
+since every connection has to be maintained to allow this predicable behavoir.  Managing
+this used to be called the "mangaging the matrix from hell".  Training was difficult
+since it was fragile.  Any mistake caused deployment to fail.
+
+Docker is a containerization technology that allows a serperation between OS and 
+all the software that sits on top of them.  
+
+Containers are seperation enviorments for the application to run.  The software
+kernal is what is needed outside the containers.  Docker can have containers with 
+different flavors of linux since it "shares the kernel"
+
+Containers => OS > Docker > Containers (smaller size, and less resourced used)
+VM => OS > Hyperviser > VM (full isolated)
+
+Containers are running instances of an image
+
+Dev => Give instuctions and software packages => Ops
+Dev => An images works the same way on each production env => Ops
