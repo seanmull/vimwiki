@@ -8,5 +8,9 @@ Index
 [[YAML]]
 [[Pods with YAML]]
 [[Replication Controllers and Sets]]
-Deployments
-
+[[Deployments]]
+[[Networking]]
+[[Services]]
+[[Microservices]]
+[[K8 on the cloud]]
+[[Telepresence]]

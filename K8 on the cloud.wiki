@@ -1,0 +1,14 @@
+There are two types of cloud services
+
+Self-hosted/ Turnkey solutions
+You provision the VMs
+You configure the VMs
+You uses scripts to deploy the cluster
+You maintain the VMs yourself
+
+Hosted solutions
+Kubenetes as a service
+Provider provisions VM
+Provider installs K8
+Provider maintains VM
+

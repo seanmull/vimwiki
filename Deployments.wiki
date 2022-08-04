@@ -19,3 +19,23 @@ kubectl get deployments
 kubectl get replicaset
 kubectl get pods
 kubectl get all // this will give us all deployments/replicasets/pods
+
+kubectl rollout status <deployment name>
+kubectl rollout history <deployment name>
+
+Deployment stategies
+Recrate: Distroy and deploy -> application is down
+Rolling: Replace one instance at time
+  Creates a replicaSet and launches image one at a time
+
+To update change the image name and run
+kubectl apply -f <deployment name>
+kubectl set image <deployment name>
+
+To rollback
+kubectl rollout undo <deployment name>
+
+// deprecated
+kubectl create -f <deployment name> --record // to get logs of how things are running
+
+

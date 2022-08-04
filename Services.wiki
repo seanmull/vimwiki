@@ -1,0 +1,72 @@
+Services are what allow interactivity between the pods
+They allow loose coupling between the services
+
+You can ssh into the internal network of the node but this is not what we want
+
+Services provide us the abstraction layer to interact with nodes networking ip
+It allows you to listen to exposed port
+
+Service types
+1. Node port // where a port is exposed on the node allowing access to internal network
+2. Cluster IP // creates a vertual ip inside of the cluster
+3. Load balencer //provisions a load balencer for the applicaiton
+
+For node ports it has 3 ports
+Pod port // otherwise known as the target port
+Service port // otherwise as the port
+Node port // otherwise known as nodePort 30000-32767
+
+service definition for NodePort
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  type: NodePort 
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+  selector: 
+    app: myapp
+    type: front-end
+    
+Steps to set up networking for the cluster
+kubectl create -f <yaml file>
+kubectl get services
+curl http ...
+
+The selector for the services will be the same as the pod labels
+
+If we have a replicaset it will allow access in a random way
+
+service definition for ClusterIP
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  type: ClusterIP // default  
+  ports:
+    - targetPort: 80
+      port: 80
+  selector: 
+    app: myapp
+    type: backend  
+ 
+ 
+Load balencing can be achived through the cloud platforms such as AWS
+
+service definition for Load balencer
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  type: LoadBalencer // default  
+  ports:
+    - targetPort: 80
+      port: 80
+  selector: 
+    app: myapp
+    type: backend  

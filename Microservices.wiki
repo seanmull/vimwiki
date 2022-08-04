@@ -1,0 +1,9 @@
+Sample microservice
+Docker
+1. Deploy containers
+2. Enable connectivitiy
+3. External access
+
+K8
+1. Deploy these as pods
+2. Expose services

@@ -51,4 +51,22 @@ kubectl delete replicaset myappreplicaset  // also deletes pods
 kubectl edit replicaset myappreplicaset // edit the as running config of the replica set
 Note: this doesn't actually scale but changes the file
      
-     
+Nodeport  .....  port 80:30004/TCP
+
+To get access to the application
+minikube service <name of service> --url // this will print us the url of the service
+
+lets say we have layers of applications
+
+front end
+
+backend
+
+redis
+
+mysql
+
+Connecting with the ip of each pod is problematic since they are not static
+When they die they get replaced.
+Services can provide a single interfaces.  It will group different instances of the same
+service

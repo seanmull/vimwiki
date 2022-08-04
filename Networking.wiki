@@ -1,0 +1,15 @@
+example
+1 pod on 1 node
+the node is hosting on 192.168.1.2
+internal ip 10.244.0.0 //this network assigns ip to the pods
+Note: Nodes can have the same internal ip as one another
+the pod is hosting on 10.244.0.2
+this is not the ip on the system
+
+Rules
+All containers/pods need to communicate to each other without NAT
+All nodes ....
+
+Creating a cluster
+Seperate services handle the routing of all the different nodes
+This creates different ip address so there is no conflicts

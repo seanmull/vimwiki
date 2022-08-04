@@ -1,0 +1,28 @@
+Components
+
+this.addRpcHandler(method, function.bind(this.obj), null, validate)
+
+validate: tells you if want validate the request
+method: gets generated via the schemify/generate commands
+convention is <backend name>_gen.<reasourse>.<function>.METHOD
+nl_ocd_gen.content.getSystemListDetails.METHOD
+usually there is an interfaces.ts file that contains the interfaces for the request
+
+interfaces
+
+interface IReq {
+    num1: number
+    num2: number
+}
+
+interface IRes extends ResponseResult {
+    sum: number
+}
+
+function
+
+const addTwoNumbers = (a: number , b: number): number => {
+  return a + b
+}
+
+
