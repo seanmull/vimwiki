@@ -1,5 +1,10 @@
 ## Simple todo list
 
+Working now
+6. Study basic concepts of [[rabbitMQ]]
+8. Sharans [[lecture]]
+
+
 In work
 Priority
 1. Create an API that adds two numbers and returns the result
@@ -7,13 +12,12 @@ Priority
 3. Deploy it on the cluster
 
 4. Go through sarmed on how he built his API from scratch
-5. Study basic concepts of rabbitMQ
-6. Start going through instructions sarmed gave for telepresence
-7. Sharans [[lecture]]
-8. 
-9. Find out out why I cannot get higher resolution for my monitor
-10.   Try out a better cable to see if that helps
-11. [[LeetCode]]
+5. Things to ask sarmed regarding getting [[linux configured]]
+7. Start going through instructions sarmed gave for telepresence
+9. 
+10. Find out out why I cannot get higher resolution for my monitor
+11.   Try out a better cable to see if that helps
+12. [[LeetCode]]
 
 Done
 1. Study basic [[concepts]] of kubernetes

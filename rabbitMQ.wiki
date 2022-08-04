@@ -1,0 +1,23 @@
+Jargon
+1. Producing: a program that sends messages
+2. Queue: a postbox that lives in rabbitMQ
+3. Consuming: a program that waits to recieve messages
+
+Steps to create a producer
+1. Connect to rabbitMQ server
+2. Create a channel
+3. Declare a queue we want to send to
+4.  We give it a name that must match what is requested from the consumer
+5. Send message to queue
+6. Close the connection and exit
+
+Steps to create a consumer
+Similar to producer only we consume messages and listen for any other messages
+
+RPC pattern
+
+But what if we need to run a function on a remote computer 
+and wait for the result? Well, that's a different story. This 
+pattern is commonly known as Remote Procedure Call or RPC.
+
+
