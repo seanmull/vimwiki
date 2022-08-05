@@ -1,0 +1,40 @@
+Deliverables
+
+Outline a process for how a backend is built. The focus in on the "what" not the "how".
+For example,
+
+1. Create server.
+2. Create a base library that houses the buisness logic of the application.
+3. Create a place that houses the configuration for all the services needed.
+4. Create controllers to acticulate all the different use cases needed.
+5. Run an instance of an RMQ broker.
+6. Connect to the broker via the base library that extends Skeletors functionality.
+7. Dockerize the application.
+8. Register container in the private nightlife hub.
+9. Deploy container on the EKS cluster.
+10. Test application by sending it an request.
+11. .......
+
+Plan for how to accomplish this:
+1. Build a sample server application that has the following features:
+  1. Exposes an end point in jsonrpc format as follows:
+      {
+        jsonrpc: 3.0,
+        method: nl-sample.addtwonumbers,
+        params: {
+          a: 1,
+          b: 2
+        }
+      }
+  2. It accepts request that takes in two numbers.
+  3. Provides a response that provides a sum of those numbers.
+2. Dockerize application.
+3. Deploy container on AWS EKS Cluster.
+4. Adhere to contraints below.
+
+Contraints for sample backend application
+1. Must use skeletor library when practical.
+2. Must have RMQ configured and running to produce and consume messages via RPC pattern.
+3. Must use generate and schemify from nl-packr to perform type-checking on messages.
+4. Must deploy on AWS EKS Cluster.  All microservices should be able to call its API.
+5. RMQ must be authenticated via Doors.

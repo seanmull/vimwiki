@@ -3,11 +3,11 @@
 Working now
 6. Study basic concepts of [[rabbitMQ]]
 8. Sharans [[lecture]]
-
+9. Discussion with [[sarmed]]
 
 In work
 Priority
-1. Create an API that adds two numbers and returns the result
+1. Clean up the nl-test
 2. Create a docker file that builds the container test the container on the local system
 3. Deploy it on the cluster
 
@@ -23,3 +23,4 @@ Done
 1. Study basic [[concepts]] of kubernetes
 2. [[Figure out how to get access to EKS cluster]]
 3. Watch [[video]] sharan gave me
+1. Take some [[notes over discussion with sharan]]
