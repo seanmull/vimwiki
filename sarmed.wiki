@@ -39,4 +39,14 @@ distinations is ususally a queue
 Two queues one for request and response
 And another for events but this might be optional if the config doesn't have it
 
+let addTwoNumbers: ReqResFunction<any, any> = (a, b)  => {
+      return Promise.resolve().then(() => {return a.num1 + a.num2})
+    }
+    this.rpc.addRpcHandler(nl_test_gen.schema.addTwoNumbers.METHOD,
+                           addTwoNumbers, null, true)
+                           
+a is the object getting returns from the queue
+b is the metadata
+
 Set up EACCES
+Careful with listening on port 80
