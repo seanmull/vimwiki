@@ -1,4 +1,4 @@
-Generics in typescript
+[Generics](Generics) in typescript
 
 // Array
 // last

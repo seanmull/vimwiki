@@ -6,6 +6,7 @@
 - [ ] Get nl-test connected to through Doors
 - [ ] Return monitor
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
+- [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
  
 ## Backlog
 
@@ -14,7 +15,7 @@
 - [ ] Deploy container on AWS
 - [ ] Learn how sarmed built his API from scratch
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
-- [ ] [LeetCode](LeetCode), take notes from the youtube videos 44 total
+- [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
 - [ ] Look into interview bit, is this worth my time
 - [ ] Start working on getting nl-test working on telepresence
 

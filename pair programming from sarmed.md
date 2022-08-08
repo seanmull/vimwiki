@@ -1,4 +1,4 @@
-# Tips from sarmed pair programming
+[#](#) Tips from sarmed pair programming
 
 ## How to get logs
 install bunyan
