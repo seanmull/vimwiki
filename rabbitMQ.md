@@ -39,3 +39,6 @@ C  -----> rpc_queue ------> S
 4. The server (RPC worker) waits for requests from the rpc_queue if it see one it will respond to the reply to queue
 5. The client waits for a responce on the reply to queue.  If it matches the correlationId from the reply it returns the response
 from the application.
+
+## Pub sub model
+
