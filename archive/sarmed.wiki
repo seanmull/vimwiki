@@ -46,7 +46,6 @@ let addTwoNumbers: ReqResFunction<any, any> = (a, b)  => {
                            addTwoNumbers, null, true)
                            
 a is the object getting returns from the queue
-b is the metadata
 
 Set up EACCES
 Careful with listening on port 80

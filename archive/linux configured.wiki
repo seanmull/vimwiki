@@ -1,4 +1,4 @@
 How to get vpn working
 How to get keypass set up
 
-How to run programs with vscode
+How to run programs without vscode
