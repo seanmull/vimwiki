@@ -1,4 +1,4 @@
-## Moving list
+[##](##) Moving list
 
 - [ ] Dining table set
 - [ ] TV
@@ -13,3 +13,4 @@
 - [ ] Standing lamps
 - [ ] 2 x Drawers
 - [ ] Bookcases
+- [ ] Blender

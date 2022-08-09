@@ -10,7 +10,7 @@
 
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
-- [ ] Work on interviewBit
+- [ ] Work on [interviewBit](interviewBit)
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
 - [ ] Look into interview bit, is this worth my time
