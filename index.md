@@ -1,17 +1,17 @@
 # TASKS
 ## In work
 
-- [ ] How to get keypass set up in linux
-- [ ] Get VPN up an running in Linux
-- [ ] Get nl-test connected to through Doors
-- [ ] Return monitor
+- [ ] How to get [keypass](keypass) set up in linux
+- [ ] Talk with rob regarding get schemify to work
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
+- [X] Get nl-test connected to through Doors
+- [X] Return monitor
+- [X] Install [postman](postman)
+- [X] Get VPN up an running in Linux
  
 ## Backlog
 
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
-- [ ] Build a docker container for nl-test
-- [ ] Deploy container on AWS
 - [ ] Learn how sarmed built his API from scratch
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] [LeetCode](LeetCode), take notes from the youtube videos 44 total
