@@ -4,22 +4,23 @@
 - [ ] How to get [keypass](keypass) set up in linux
 - [ ] Talk with rob regarding get schemify to work
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
-- [X] Get nl-test connected to through Doors
-- [X] Return monitor
-- [X] Install [postman](postman)
-- [X] Get VPN up an running in Linux
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
  
 ## Backlog
 
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
+- [ ] Work on interviewBit
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
 - [ ] Look into interview bit, is this worth my time
 - [ ] Start working on getting nl-test working on telepresence
 
 ## Done
+- [X] Get nl-test connected to through Doors
+- [X] Return monitor
+- [X] Install [postman](postman)
+- [X] Get VPN up an running in Linux
 - [X] Do some research on [generics](generics) and how they are used in skeletor
 - [X] Learn how to debug in vim
 - [X] Get markdown preview working
