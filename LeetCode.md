@@ -5,4 +5,5 @@
 [BestTimeToBuyAndSell](BestTimeToBuyAndSell)
 [BinaryZigZag](BinaryZigZag)
 [GroupAnagrams](GroupAnagrams)
-
+[maxSlidingWindow](maxSlidingWindow)
+[minNumberOfIslands](minNumberOfIslands)
