@@ -209,4 +209,146 @@ i = 2;  while j++ j = 2 then it exits on the next loop
 The while will only execute once then exit
 Runtime => 0(N * 1) => 0(N)
 
+What is the worst case time complexity of the following code :
+```
+/* 
+ * V is sorted 
+ * V.size() = N
+ * The function is initially called as searchNumOccurrence(V, k, 0, N-1)
+ */
+
+    int searchNumOccurrence(vector<int> &V, int k, int start, int end) {
+        if (start > end) return 0;
+        int mid = (start + end) / 2;
+        if (V[mid] < k) return searchNumOccurrence(V, k, mid + 1, end);
+        if (V[mid] > k) return searchNumOccurrence(V, k, start, mid - 1);
+        return searchNumOccurrence(V, k, start, mid - 1) + 1 + searchNumOccurrence(V, k, mid + 1, end);
+    }
+```
+
+NOTE : This question involves recursion which will be explained later in topic Backtracking. So, if you are not able to approach this question now, you can give it a try later.
+
+Look at 3 cases:
+Case 1: We have no occurences
+  Then the algo is logN since this is binarysearch
+Case 2: We have one occurance
+  Then the algo is still logN for the same reason as case 1
+Case 3: We have a filled array of the occurance.
+  Then we have to touch every element once and that is N
+  
+What is the worst case time complexity of the following code:
+```
+int findMinPath(vector<vector<int> > &V, int r, int c) {
+  int R = V.size();
+  int C = V[0].size();
+  if (r >= R || c >= C) return 100000000; // Infinity
+  if (r == R - 1 && c == C - 1) return 0;
+  return V[r][c] + min(findMinPath(V, r + 1, c), findMinPath(V, r, c + 1));
+}
+```
+Assume R = V.size() and C = V[0].size().
+
+NOTE : This question involves recursion which will be explained later in topic Backtracking. So, if you are not able to approach this question now, you can give it a try later.
+ 
+Assume a 3 x 3 grid.
+1 x x   
+x x x
+x x 2
+
+1 1 x
+1 x x
+x x 2
+So in 3 x 3 grid we make 
+      0 , 0
+    /       \
+  1, 0      0, 1
+  /  \      /  \
+2, 0 1, 1 1, 1 0, 2
+
+Level 1 we make 2 calls
+Level 2 we make 4 calls
+Level 3 we make 8 calls
+      i we make 2^i calls
+
+For every index we visit we make two functionl number of calls = 1 + 2 + 4 + ... 2^i + ... 2^(M + N - 2)  = O(2^(M + N)) calls.
+      
+In worst case , We need to go down till the last square box .
+So we need to make r+c -2 (leaving first and last square) .
+Now at each move we have 2 choices i.e. either row or column .
+
+So 2^(r-c-2)
+
+What is the worst case time complexity of the following code:
+
+```
+  int memo[101][101];
+
+  int findMinPath(vector<vector<int> >& V, int r, int c) {
+    int R = V.size();
+    int C = V[0].size();
+    if (r >= R || c >= C) return 100000000; // Infinity
+    if (r == R - 1 && c == C - 1) return 0;
+    if (memo[r][c] != -1) return memo[r][c];
+    memo[r][c] =  V[r][c] + min(findMinPath(V, r + 1, c), findMinPath(V, r, c + 1));
+    return memo[r][c];
+  }
+```
+Callsite : 
+memset(memo, -1, sizeof(memo));
+findMinPath(V, 0, 0);
+
+Assume R = V.size() and C = V[0].size() and V has positive elements
+NOTE : This question involves recursion which will be explained later in topic Backtracking. So, if you are not able to approach this question now, you can give it a try later.1
+
+Assume a 3 x 3 grid.
+1 x x   
+x x x
+x x 2
+
+1 1 1
+1 1 1
+1 1 2
+
+This is different the previous function is that there is no overlap in calls.
+Each location is visited only once.
+0(N * M)
+
+```
+function performOps(A){
+
+    m= A.length
+    n=A[0].length
+    B=[]
+
+    for(i = 0; i < m;i++){
+        B.push(new Array(n));
+        for(j=0;j< n;j++){
+            B[i][n-1-j] = A[i][j]
+        }
+    }
+    return B
+
+}
+
+Lets say performOps was called with A : [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]] .
+What would be the output of the following call :
+
+
+B = performOps(A)
+for (i = 0; i < B.length; i++) {
+    for (j = 0; j < B[i].length; j++) 
+        process.stdout.write(B[i][j]+" ");
+}
+```
+A[0][0] -> B[0][4-1-0]
+i V j ->
+1,2,3 4               4,3,2,1  
+5,6,7,8        =>     8,7 .. 
+9,10,11,12             
+
+It just reverses the arrays
+
+What would print out is this:
+4 3 2 1 8 7 6 5 12 11 10 9
+
 

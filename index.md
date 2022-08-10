@@ -13,7 +13,6 @@
 - [ ] Work on [interviewBit](interviewBit)
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
-- [ ] Look into interview bit, is this worth my time
 - [ ] Start working on getting nl-test working on telepresence
 
 ## Done
