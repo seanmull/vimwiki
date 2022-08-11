@@ -8,3 +8,4 @@
 [maxSlidingWindow](maxSlidingWindow)
 [minNumberOfIslands](minNumberOfIslands)
 [lowestCommonAncestor](lowestCommonAncestor)
+[partitionLabels](partitionLabels)
