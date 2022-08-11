@@ -12,31 +12,26 @@ Let's look at simple example
         /  \
        2    1
        
-The lca of 1 and 2 would be 4
-The lca of 4 and 4 would be 4
+The lca of 1 and 2 would be 4  // this is the normal case
+The lca of 4 and 2 would be 4  // this is the special case
 
+The way to solve this is to bubble the answer.  We have a left and right node.
+If one is null and the other is p or q return p or q
+If both are null return null
+Use dfs to access the left and right nodes for every sub tree
+The trick part is how to deal with special case that p or q is the lca
+for that situation you need.
+Have it return null or root given we have return both nulls or p and q
+After that all we have left is the case that one side is not null then we just return that
+node
 
+Base cases
+if root is null return null
+if root is equal to p or q
 
-
-
-S2 3, 1, 2
-S1 6, 1, 2
-
-function lowestCommonAncestor(root, p, q){
-    if(p.val < root.val && q.val < root.val)
-        return lowestCommonAncestor(root.left, p, q);
-
-    if(p.val > root.val && q.val > root.val)
-        return lowestCommonAncestor(root.right, p, q);
-
-    return root.val;
-}
-
-
-
-function inOrderTraversal(node){
-    if(node === null) return;
-    inOrderTraversal(node.left);
-    console.log(node.val);
-    inOrderTraversal(node.right);
-
+Recursion cases
+store left = lca(left)
+store right = lca(right)
+if left and right are null return null
+if left and right are not null return root
+else return left or right if the other one is null

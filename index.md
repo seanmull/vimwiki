@@ -2,6 +2,7 @@
 ## In work
 
 - [ ] How to get [keypass](keypass) set up in linux
+- [ ] Get up to speed with current set up with nl-test
 - [ ] Talk with rob regarding get schemify to work
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)

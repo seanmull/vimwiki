@@ -11,6 +11,11 @@ install bunyan
 `kubectl get secrets rmq-apps-user -o json`
 `echo <password from secrets> | base64 --decode`
 
+## To get logs in the container
+```
+[kubectl](kubectl) logs -f deploy/nl-test
+```
+
 ## Viewing logs from a running container in K8s:
 ```
 kubectl logs -f deploy/nl-test
@@ -61,12 +66,14 @@ Careful with listening on port 80
 2. Do the post request to get the jwt
 3. Go to nightlife api - preinstall script and paste the jwt.  This will enable authentication
 
-## Deploy doors with environment variables
+## Here are two ways to access to environment variables
+
+### Deploy doors with environment variables
 ```
 kubectl exec -it deploy/nl-doors-v1 -- env  > backend/nl-doors-v1/deploy/development/.env
 ```
 
-## Connect to telepresence
+### Connect to telepresence
 ```
 telepresence connect
 ```
