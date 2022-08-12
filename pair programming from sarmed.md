@@ -8,12 +8,9 @@ install bunyan
 `tail -f stdout.log | bunyan`
 
 ## How to get secrets 
-`kubectl get secrets rmq-apps-user -o json`
-`echo <password from secrets> | base64 --decode`
-
-## To get logs in the container
 ```
-[kubectl](kubectl) logs -f deploy/nl-test
+kubectl get secrets rmq-apps-user -o json
+echo <password from secrets> | base64 --decode
 ```
 
 ## Viewing logs from a running container in K8s:
@@ -22,17 +19,21 @@ kubectl logs -f deploy/nl-test
 ```
 
 ## Launch.json stuff
+```
 in env
 `NLCONF_LOG__PATH: //path to where logs will be`
 `NLCONF_HTTP_SERVER__PORT: //new http server port`
 envfile path to env file
+```
 
 ## Typical environment variables
-`NLCONF_BENCHMARK=`
-`NLCONF_REDIS__HOST=redis.dev.nightlifr.com`
-`NLCONF_RMQ__HOST=rmq.dev.nightlifr.com`
-`NLCONF_RMQ__PASS=x7ADHopKkyo7V`
-`NLCONF_RMQ__USER=apps`
+```
+NLCONF_BENCHMARK=
+NLCONF_REDIS__HOST=redis.dev.nightlifr.com
+NLCONF_RMQ__HOST=rmq.dev.nightlifr.com
+NLCONF_RMQ__PASS=x7ADHopKkyo7V
+NLCONF_RMQ__USER=apps
+```
 
 
 ## create a definition file
@@ -114,5 +115,35 @@ Look out for syntax error is you json parsing error
 5. Give it a name
 6. Run build and deploy
 
-## Test local connection to doors
+## Whats in the boilerplate code
 
+```
+├── deploy
+│   ├── development
+│   │   └── helm_values.yaml
+│   └── production
+│       └── helm_values.yaml
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── config.ts
+│   ├── controllers
+│   │   └── sample.ts
+│   ├── main.ts
+│   ├── nlbackend.ts
+│   └── rpc
+│       └── interfaces.ts
+├── tsconfig.base.json
+├── tsconfig.json
+├── tsconfig.publish.json
+└── tsconfig.run.json
+RPC folder
+├── gen_keys.json
+├── gen.ts
+├── interfaces.ts
+├── schema.schema.addTwoNumbers.IReq.json
+├── schema.schema.addTwoNumbers.IRes.json
+├── schema.schema.IReq.json
+└── schema.schema.IRes.json
+```

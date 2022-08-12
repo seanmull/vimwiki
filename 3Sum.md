@@ -10,7 +10,8 @@ The idea behind this is to have binary search on j and k
 If i + j + k are too high decrement k
 If i + j + k are too low increment j
 We have to constantly check if i, j or k have adjectent repeats if so move the letter accordingly
-  
+
+```
 Sort the list (nlogn)
 Loop i from 0 to length - 2
 If i > 0 and a[i] === a[i + 1] skip this case since it will produce a repeat
@@ -25,3 +26,4 @@ else
   j++ k--
 return the result
 
+```
