@@ -10,3 +10,5 @@
 [lowestCommonAncestor](lowestCommonAncestor)
 [partitionLabels](partitionLabels)
 [LRUCache](LRUCache)
+[KClosestsPointsToOrigin](KClosestsPointsToOrigin)
+[mergeTwoSortedLists](mergeTwoSortedLists)
