@@ -39,3 +39,17 @@ function compare(a , b)
   return a - b
   
 In a simple comparision between numbers this work but for words you need a different implementation.  Javascript has a.localecompare(b) with will work for strings.
+
+
+init map
+loop word of words
+	if(map has word)
+		add 1 to map[word]
+  else
+		map[word] = 1
+
+return ArrayfromMap.sort(
+		if(frequency are equal)
+			sort by word
+		otherwise sort by freq
+).slice to k.map to word
