@@ -12,8 +12,8 @@
 - [ ] Learn how sarmed built his API from scratch
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
-- [ ] Work on [interviewBit](interviewBit)
 - [ ] Start working on getting nl-test working on telepresence
+- [ ] Work on [interviewBit](interviewBit)
 
 ## Done
 
