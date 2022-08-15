@@ -16,3 +16,5 @@
 [mostCommonWord](mostCommonWord)
 [subTreeOfAnotherTree](subTreeOfAnotherTree)
 [wordLadder](wordLadder)
+[getMaximalSquare](getMaximalSquare)
+
