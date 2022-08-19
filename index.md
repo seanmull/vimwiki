@@ -3,6 +3,7 @@
 
 - [ ] Start gathering requirements for n-sync
 - [ ] Call up tax file office regarding my super
+- [ ] Do some research on [mocha](mocha) and sinion testing
  
 ## Backlog
 
