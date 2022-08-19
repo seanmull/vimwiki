@@ -2,6 +2,20 @@ Given an m x n binary matrix filled with 0's and 1's, find the largest square co
 
 Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
 Output: 4
+
+This problem can be solved via dynammic programming method.  Look at a simple example:
+
+1 0 1
+1 1 1
+1 1 1 
+
+First we check if the top row and column have a "1" so the length is 1 in this example
+Then we start at row = 1 and column = 1
+
+
+
+
+
 ```
 /**
  * @param {character[][]} matrix
