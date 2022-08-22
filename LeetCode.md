@@ -20,3 +20,5 @@
 [getNextGreaterElementAmazon](getNextGreaterElementAmazon)
 [isValidParentesis](isValidParentesis)
 [permutations](permutations)
+[topKfreqElements](topKfreqElements)
+[maxSubArray](maxSubArray)

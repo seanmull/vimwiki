@@ -4,7 +4,7 @@
 - [ ] Go through [typescript tutorial](typescript tutorial)
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
-- [ ] Look into stuff for taxes
+- [ ] Look into [stuff for taxes](stuff for taxes)
  
 ## Backlog
 
