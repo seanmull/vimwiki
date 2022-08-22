@@ -17,4 +17,6 @@
 [subTreeOfAnotherTree](subTreeOfAnotherTree)
 [wordLadder](wordLadder)
 [getMaximalSquare](getMaximalSquare)
+[getNextGreaterElementAmazon](getNextGreaterElementAmazon)
+[isValidParentesis](isValidParentesis)
 

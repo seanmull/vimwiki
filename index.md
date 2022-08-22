@@ -1,30 +1,34 @@
 # TASKS
 ## In work
 
-- [ ] Start gathering requirements for n-sync
-- [ ] Call up tax file office regarding my super
-- [ ] Do some research on [mocha](mocha) and sinion testing
+- [ ] Go through [typescript tutorial](typescript tutorial)
+- [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
+- [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
+- [ ] Look into stuff for taxes
  
 ## Backlog
 
+- [ ] Do some research on [mocha](mocha) and sinion testing
+- [ ] Call up lauren regarding the next steps regarding the return
+- [ ] Develop a study plan to start learning lua focus on dev for vim
 - [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
-- [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
-- [ ] [LeetCode](LeetCode), take notes on all problems done so far
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
-- [ ] [LeetCode](LeetCode), take notes from the YouTube videos 44 total
 - [ ] Start working on getting nl-test working on telepresence
 - [ ] Work on [interviewBit](interviewBit)
 
 ## Done
 
+- [X] Call up tax file office regarding my super Member number
+- [X] Call up [umart regarding my monitor return](umart regarding my monitor return)
+- [X] Send Robert the money for the rent, 
 - [X] Try to [nl-test up and running with vim](nl-test up and running with vim)
 - [X] Add the [nessessary code to nl-genesis](nessessary code to nl-genesis)
+- [X] Message [miles regarding selling the place](miles regarding selling the place)
 - [X] Work on documentation for building the simple server application
 - [X] Send back message to Era
 - [X] Send back message to Luca
-- [X] Call up [umart regarding my monitor return](umart regarding my monitor return)
 - [X] Talk with regarding [doors api_set_id](doors api_set_id)
 - [X] Created bug report for doors issues with http request
 - [X] How to get [keypass](keypass) set up in linux
