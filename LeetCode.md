@@ -19,4 +19,4 @@
 [getMaximalSquare](getMaximalSquare)
 [getNextGreaterElementAmazon](getNextGreaterElementAmazon)
 [isValidParentesis](isValidParentesis)
-
+[permutations](permutations)
