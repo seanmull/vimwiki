@@ -24,3 +24,4 @@
 [maxSubArray](maxSubArray)
 [addTwoNumbers](addTwoNumbers)
 [longestSubstringWithoutRepeatingCharacter](longestSubstringWithoutRepeatingCharacter)
+[mergeIntervals](mergeIntervals)
