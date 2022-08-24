@@ -33,7 +33,6 @@ replicas: 2
 disableProbe: true
 nme: nl-nessie
 version: 1.0.46
-image: 174155838907.dkr.ecr.ap-southeast-2.amazonaws.com/nl-nessie:1.0.46
 command:
     - ts-node
     - src/main.ts
@@ -42,9 +41,6 @@ env:
   NLCONF_LOG__LEVEL: info
   NLCONF_LOG__PRETTY: "false"
   PWD: /app/backend/nl-nessie/src
-  NLCONF_NESSIE__HOST: biggie-smalls.dev.nightlifr.com
-  NLCONF_NESSIE__DATABASE: nl_nessie
-  NLCONF_NESSIE__USER: nl_nessie
 ```
 5. Look over the formatting differences. For all secrets enter the following in command line.
 6. For secrets:
