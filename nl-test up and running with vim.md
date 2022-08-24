@@ -1,5 +1,9 @@
 Step
 
+Current issues:
+Nvim-dap doesn't allow ${file} substitutions in the strings for env variables.
+Perhaps just hard code the paths for now
+
 1. Make sure the debugger is build (vscode node 2 adapted)
 2. with nvim dap launchjs: 
 ```
@@ -12,6 +16,7 @@ require('dap.ext.vscode').load_launchjs(nil, { node = { "javascript", "typescrip
 
 ```
 Note: The first value is from launch.json in vscode the second is the adapter config
+Also make sure the adapter is set up for each file type that bound to each config
 
 Also with typescript you need to put the following shebang above the file:
 ```
@@ -28,4 +33,5 @@ able to replace this with the right values:
   "NLCONF_RMQ__HOST": "rmq.dev.nightlifr.com"
 },
 ```
+
 

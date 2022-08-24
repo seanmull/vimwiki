@@ -2,7 +2,7 @@
 ## In work
 - [ ] Take notes on [nl-nessie](nl-nessie)
 - [ ] Deploy nl-nessie to dev
-- [ ] Come up with proposal for this gray list backend
+- [ ] Come up with [proposal for this gray list backend](proposal for this gray list backend)
 - [ ] Find a hack solution to [nl-test up and running with vim](nl-test up and running with vim)
 - [ ] Getting a [better sql client for linux](better sql client for linux)
 - [ ] Create a [shortcut for all the path and variables](shortcut for all the path and variables)
@@ -11,8 +11,13 @@
  
 ## Useful references
 [Snippets](Snippets)
+
+### Vim
 Look into useful [vim motions](vim motions) just type :h motion.txt
 [Random vim stuff](Random vim stuff)
+[nl-test up and running with vim](nl-test up and running with vim)
+
+### Dev-ops
 [Kubernetes](Kubernetes)
 
 ## Backlog
@@ -31,7 +36,6 @@ Look into useful [vim motions](vim motions) just type :h motion.txt
 
 - [X] Talk with brad about [getting connected to server via telepresence method](getting connected to server via telepresence method)
 - [X] Call up [umart regarding my monitor return](umart regarding my monitor return)
-- [X] Try to [nl-test up and running with vim](nl-test up and running with vim)
 - [X] Add the [nessessary code to nl-genesis](nessessary code to nl-genesis)
 - [X] Message [miles regarding selling the place](miles regarding selling the place)
 - [X] Work on documentation for building the simple server application
