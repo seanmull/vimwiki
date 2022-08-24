@@ -14,3 +14,5 @@
 - [ ] 2 x Drawers
 - [ ] Bookcases
 - [ ] Blender
+- [ ] Shower head
+- [ ] Rugs
