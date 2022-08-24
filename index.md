@@ -4,11 +4,11 @@
 - [ ] Go through [typescript tutorial](typescript tutorial)
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
-- [ ] Look into [stuff for taxes](stuff for taxes)
-- [ ] Talk with brad about [getting connected to server via telepresence method](getting connected to server via telepresence method)
+- [ ] Getting a [better sql client for linux](better sql client for linux)
  
 ## Backlog
 
+- [ ] Look into [stuff for taxes](stuff for taxes)
 - [ ] Do some research on [mocha](mocha) and sinion testing
 - [ ] Call up lauren regarding the next steps regarding the return
 - [ ] Develop a study plan to start learning lua focus on dev for vim
@@ -16,11 +16,12 @@
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
-- [ ] Start working on getting nl-test working on telepresence
 - [ ] Work on [interviewBit](interviewBit)
 
 ## Done
 
+- [X] Talk with brad about [getting connected to server via telepresence method](getting connected to server via telepresence method)
+- [X] [Random vim stuff](Random vim stuff)
 - [X] Call up tax file office regarding my super Member number
 - [X] Call up [umart regarding my monitor return](umart regarding my monitor return)
 - [X] Send Robert the money for the rent, 

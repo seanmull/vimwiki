@@ -1,4 +1,4 @@
-[##](##) Moving list
+## Moving list
 
 - [ ] Dining table set
 - [ ] TV
