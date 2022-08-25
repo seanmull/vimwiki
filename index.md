@@ -1,24 +1,28 @@
 # TASKS
 ## In work
-- [ ] Take notes on [nl-nessie](nl-nessie)
-- [ ] Deploy nl-nessie to dev
-- [ ] Come up with [proposal for this gray list backend](proposal for this gray list backend)
-- [ ] Find a hack solution to [nl-test up and running with vim](nl-test up and running with vim)
-- [ ] Getting a [better sql client for linux](better sql client for linux)
-- [ ] Create a [shortcut for all the path and variables](shortcut for all the path and variables)
+
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
-- [ ] How to [set up a typescript project](set up a typescript project)
+- [ ] Come up with [proposal for this gray list backend](proposal for this gray list backend)
  
 ## Useful references
-[Snippets](Snippets)
+
+- [Snippets](Snippets)
+- [Stack Overflow](Stack Overflow)
+- [set up a typescript project](set up a typescript project)
+- [Paths and env](Paths and env)
 
 ### Vim
-Look into useful [vim motions](vim motions) just type :h motion.txt
-[Random vim stuff](Random vim stuff)
-[nl-test up and running with vim](nl-test up and running with vim)
+
+- Look into useful [vim motions](vim motions) just type :h motion.txt
+- [Random vim stuff](Random vim stuff)
+- [nl-test up and running with vim](nl-test up and running with vim)
 
 ### Dev-ops
-[Kubernetes](Kubernetes)
+ - [Kubernetes](Kubernetes)
+
+### Backends
+- [nl-nessie](nl-nessie)
+
 
 ## Backlog
 
@@ -34,7 +38,10 @@ Look into useful [vim motions](vim motions) just type :h motion.txt
 
 ## Done
 
+- [X] Getting a [better sql client for linux](better sql client for linux)
+- [X] Find a hack solution to [nl-test up and running with vim](nl-test up and running with vim)
 - [X] Talk with brad about [getting connected to server via telepresence method](getting connected to server via telepresence method)
+- [X] Look over document that brad gave regarding tasks
 - [X] Call up [umart regarding my monitor return](umart regarding my monitor return)
 - [X] Add the [nessessary code to nl-genesis](nessessary code to nl-genesis)
 - [X] Message [miles regarding selling the place](miles regarding selling the place)
@@ -44,8 +51,3 @@ Look into useful [vim motions](vim motions) just type :h motion.txt
 - [X] Install [postman](postman)
 - [X] Do some research on [generics](generics) and how they are used in skeletor
 - [X] Organize notes from [pair programming from sarmed](pair programming from sarmed)
-
-
-
-
-

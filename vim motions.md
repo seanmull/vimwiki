@@ -18,3 +18,4 @@ movement commands are used.
 	"diB"	delete inner '{' '}' block		*diB*
 	"daB"	delete a '{' '}' block			*daB*
 
+gx: go to URL
