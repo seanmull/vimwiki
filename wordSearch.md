@@ -7,45 +7,29 @@ Example 1:
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 Output: true
 
+This problem should involve a backtracking method, since we are looking for all combinations of the graph. For instance:
 
+A B
+C D
 
-/**
- * @param {character[][]} board
- * @param {string} word
- * @return {boolean}
- */
-// Helper Func
-const isOutOfBound = (board, row, col) => row < 0 || row >= board.length || col < 0 || col >= board[0].length;
+Let's say we look for A->C->D->B
 
-const checkNeighbors = (board, word, row, col) => {
-    // Check exit conditions
-    if (!word.length) return true;
-    if (isOutOfBound(board, row, col) || board[row][col] !== word[0]) return false;
-    
-    // Save some stuff
-    const curChar = board[row][col];
-    const newWord = word.substr(1);
+If we start at A and look in the B direction then the C direction
+From C we look in the D direction (we cannot go back to A)
+From D we look in the B direction (we cannot go back to D)
 
-    board[row][col] = 0; // Disable the current character
-    
-    // Check if neighbors are fruitful
-    const results = checkNeighbors(board, newWord, row + 1, col) ||
-        checkNeighbors(board, newWord, row - 1, col) ||
-        checkNeighbors(board, newWord, row, col + 1) ||
-        checkNeighbors(board, newWord, row, col - 1);
+One way to not allow us to go back to the previous letter is to temporarily mark
+the letter we don't want to go back to and replace it when we are done looking through that path
 
-    // Enable current character
-    board[row][col] = curChar;
-
-    return results;
-};
-
-
-var exist = function(board, word) {    
-    for (let row = 0; row < board.length; row++) {
-        for (let col  = 0; col < board[0].length; col++) {
-            if (checkNeighbors(board, word, row, col)) return true;
-        }
-    }
-    return false;
-};
+Steps:
+1. Create a helper outOfBounds function that passes the grid and row, column 
+2. Create the main function that loops through the grid calling the checkNeighbors function.
+3. Create the checkNeighbors function
+4.   Check base cases
+5.    if we are at the end of the word return true
+6.    if we are outOfBounds return false
+7.  save the current character on the board 
+8.  save the word as the substring minus the first letter 
+9.  recursively look in all four direction and store result in each stack
+10. restore the letter in the position
+11. return results
