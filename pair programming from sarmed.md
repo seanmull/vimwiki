@@ -40,6 +40,7 @@ NLCONF_RMQ__USER=apps
 1. rabbit Mq cluster operator
 2. operator then uses the rabbitMQ api to provide the definiton
 3. add queue to rmq using the yaml file in middleware folder
+4. do the same with the bindings look for the nl-exchange folder
 
 The main exchange were all the pods goes to nl-exchange
 queues destinations from the exchange

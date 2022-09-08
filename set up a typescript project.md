@@ -1,5 +1,8 @@
 ## Look through tutorial on youtube with ben awad
 
+Note in order to run some script through codi, you need remove the shebang from top
+So in order to run debugger you need it but if you just want to sketchpad a script use codi
+
 https://www.youtube.com/watch?v=1UcLoOD1lRM&t=1018s
 
 Give package.json

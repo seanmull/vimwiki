@@ -1,4 +1,42 @@
+[##](##) Notes
+
+timebomb - number of days remaining since a customer has downloaded music on the system.
+
+
+total_timebomb - total number of days its been since the customer has downloaded music on the system.  Timebomb is a subset of total_timebomb. 
+
+Are timebombs only 2 digits?
+  yes 
+
+Questions:
+1. Do want to protect against wild cards in the query somehow? Especially the delete.<br>
+We do not want to allow delete of wildward
+3. Proposal for how to abstract out the timebomb:<br>
+#### Pauls proposal
+* if total time is greater then 90
+  - set remaining time to 99
+* if total time is less then 90
+  - set remaining to total time
+#### Sharans proposal
+* always set remaining time to 99
+* just store total time
+
+3. Do we want to require serial, system pairing?  Do we request either or system or serial?  In other words do we assume the user wants to relate the two in someway?<br>
+For example,
+```
+  systems = ["abcd", "efgh"]
+  serials = ["1234", "5678"]
+```
+Would we be making a request against 2 systems or potentially 4?<br>
+Assume no pairings just do (or)<br>
+4. For the delete/put methods what is this count?  Is it the number of records changed or the records added?
+We just needed feedback on the table.  
+Total rows, rows effected, rows added
+  
+
+
 ## Requirements
+
 
 The Greylist is list of rules for systems when they install software and music. It affects whether software and databases can install and how long a software license s valid for. The data for the greylist is currently stored in a text file at the following location:
 
@@ -87,8 +125,7 @@ Example request:
  ```JSON
 {
   "jsonrpc": "2.0",
-  "method": "set_timebomb_for_system",
-  "params": {
+  "method": "set_timebomb_for_system", "params": {
     "systems": ["AVEO01B", "AVEO01A"],
     "timebombs": [99, 06]
   }
@@ -303,14 +340,14 @@ A[gray_lists] --->|ingestion| B(nl-macyGray)
 B --->|writes| C[(biggie-smalls)]
 C --->|reads| B
 B --->|exposes| D(API)
-D ---> E(Create lines)
-D ---> F(Get lines)
-D ---> G(Update lines)
-D ---> H(Delete lines)
-D ---> I(Get_system_details)
-D ---> J(Set_timebomb)
-D ---> K(Set_allow_software_updates)
-D ---> L(Set_allow_music_updates)
+D ---> E(list)
+E ---> G(get)
+D ---> F(system)
+F ---> I(get)
+F ---> J(set)
+F ---> K(delete)
+F ---> L(something)
+
 ```
 
 ## Plan
@@ -329,3 +366,6 @@ D ---> L(Set_allow_music_updates)
   
 ### Nice to have for the future:
 - May want a groups a tables to set for the cruise ships.  This would be group -> systems codes.
+
+
+Notes from sharan

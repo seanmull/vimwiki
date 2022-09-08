@@ -19,3 +19,34 @@ movement commands are used.
 	"daB"	delete a '{' '}' block			*daB*
 
 gx: go to URL
+
+to cut and paste from system clipboard
+
+### How to copy text from vim
+```
+"+y
+```
+this sets the selected text to be put in the + register which is the system clipboard
+
+### How to paste stuff from other sources to vim
+```
+"+p"
+```
+this pastes any stuff from your system register
+Note this seems to work without going through this effort
+
+### How to vim surround
+
+cs"'
+replaces "" with '' on something that already surronds a word
+
+ds" will delete parathesis around word
+
+ysiw] will surrond word with a ]
+you can use this sentences or paragraphs as well
+
+### More  vim shortcuts
+"D" delete up to and including character
+"C" delete and go into insert mode
+"V" highlight the whole line
+
