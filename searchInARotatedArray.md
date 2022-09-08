@@ -25,25 +25,22 @@ Case 4 Right side is sorted and target is not between m + 1 and h
   
   4, 5, 6, 7, 0, 1, 2  our target = 0
   l        m        r
+              l  m  r
+              l  r
+              lr
   
-
-let search = function(nums, target) {
-    if (!nums.length) return -1;
-    let [l, r] = [0, nums.length-1];
-    while (l !== r) {
-        let m = Math.trunc((l + r) / 2);
-        if (nums[l] < nums[m]) {
-            // target contained on left?
-            if (nums[l] <= target && target <= nums[m]) r = m;
-            else l = m + 1;
-        }
-        else {
-            // target contained on right?
-            if (nums[m+1] <= target && target <= nums[r]) l = m +1;
-            else r = m;
-        }
-    }
-    return (nums[r] == target)? r: -1;
-}
-
-
+Steps
+init l to 0 r to end
+while l and r are not equal
+  set m to mid of l and r
+  if left side is sorted 
+    if target is between l and m
+      set r to m // look left
+    else
+      set l to m + 1 // look right
+  else // right is sorted
+    if target is between m and r
+      set l to m + 1
+    else
+      set to m
+if arr[r] is equal to target return r else -1
