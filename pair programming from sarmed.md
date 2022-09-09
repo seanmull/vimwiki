@@ -1,4 +1,4 @@
-[#](#) Tips from sarmed pair programming
+# Tips from sarmed pair programming
 
 ## How to get logs
 install bunyan
@@ -148,3 +148,16 @@ RPC folder
 ├── schema.schema.IReq.json
 └── schema.schema.IRes.json
 ```
+
+Some stuff to consider for the development environment
+1. If there are any backends that may having conflicting ports when routing http.
+2. Make sure that the queues and bindings are set up for the namespace you are trying to add.
+3. Make sure the pod is not running when you are deving.  You need a local instance of the pod running when running the script but you need to make sure its not running afterwords.
+
+The tasks in vs-code. You need to make sure each script has a ";" at the end. 
+
+Two documents will help you understand the process:
+This one is useful for setting up a debug env
+https://nightlifemusic.atlassian.net/wiki/spaces/GHQ/pages/2092040245/Debugging
+This one is useful for understanding the folders in mono and namespaces:
+https://nightlifemusic.atlassian.net/wiki/spaces/GHQ/pages/2092990477/Folder+Structures+in+Mono

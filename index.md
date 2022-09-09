@@ -1,15 +1,14 @@
 ## In work
 
 - [X] 15 typing practice
-- [X] Add font to vscode
-- [X] Get typescript to work with codi
-- [ ] Print the pod paperwork
-- [ ] Play with generics a bit, build some simple script
-- [ ] Deploy and test on cluster
-- [ ] Do we want to add queues to nl-genesis
-- [ ] Talk to sarmed about setting up the dev env
+- [X] Draft up proposal for additional endpoints
+- [X] Print the pod paperwork. Ask glen how to add printers in linux
+- [X] Look at the scripts sarmed has set up the development environment
+- [X] Talk to Paul regarding the new functionality for nl-macygrey
+- [X] Test out the get endpoints in the client
+- [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
+- [X] Do we want to add queues to nl-genesis. Don't think so.
 - [ ] Add strict typing for nl-genesis
-- [ ] Bundle up the postman files with the application
  
 ## Useful references
 
@@ -49,6 +48,12 @@
 
 ## Done
 
+- [X] Create symlinks for all credentials. Look into app to hide env variables
+- [X] See how I can get the same functionality with insomnia
+- [X] Play with generics a bit, build some simple script
+- [X] Deploy and test on cluster
+- [X] Add font to vscode
+- [X] Get typescript to work with codi
 - [X] Figure out if I can link readme to a conflunce page
 - [X] Add some of robs interfaces
 - [X] Update readme to reflect current design but try out the next task

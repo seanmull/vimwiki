@@ -49,4 +49,3 @@ you can use this sentences or paragraphs as well
 "D" delete up to and including character
 "C" delete and go into insert mode
 "V" highlight the whole line
-

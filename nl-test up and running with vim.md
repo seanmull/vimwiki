@@ -1,6 +1,9 @@
 Step
 
 Current issues:
+
+Sometime nvim dap complains that it cannot find the typescript configs.  Try reloading the config.
+
 Nvim-dap doesn't allow ${file} substitutions in the strings for env variables.
 Perhaps just hard code the paths for now
 

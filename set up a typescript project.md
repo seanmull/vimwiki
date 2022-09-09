@@ -1,5 +1,8 @@
 ## Look through tutorial on youtube with ben awad
 
+Helpful references:
+https://www.sitepen.com/blog/typescript-cheat-sheet
+
 Note in order to run some script through codi, you need remove the shebang from top
 So in order to run debugger you need it but if you just want to sketchpad a script use codi
 

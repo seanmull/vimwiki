@@ -14,3 +14,6 @@ git rm -r --cached <folder>
 The removal of the file from the head revision will happen on the next commit.
 
 WARNING: While this will not remove the physical file from your local machine, it will remove the files from other developers' machines on their next git pull.
+
+Make sure to install dependencies on dependencies not in dev for the package.json
+https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies
