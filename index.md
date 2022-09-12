@@ -1,17 +1,8 @@
 ## In work
 
-- [X] 15 typing practice
-- [X] Draft up proposal for additional endpoints
-- [X] Print the pod paperwork. Ask glen how to add printers in linux
-- [X] Look at the scripts sarmed has set up the development environment
-- [X] Talk to Paul regarding the new functionality for nl-macygrey
-- [X] Test out the get endpoints in the client
-- [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
-- [X] Do we want to add queues to nl-genesis. Don't think so.
-- [ ] Add strict typing for nl-genesis
- 
-## Useful references
+- [ ] Look for games to practice vim motions
 
+ ## Useful references
 - [Snippets](Snippets)
 - [Stack Overflow](Stack Overflow)
 - [set up a typescript project](set up a typescript project)
@@ -32,22 +23,37 @@
 
 ## Backlog
 
-- [ ] Look up gitops
-- [ ] Learn about [how to recover a git stash](how to recover a git stash) look into how to recover nl-nessie config
+- [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
 - [ ] Learn about Lazygit. See if its worth the hassle
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
+- [ ] Set up nl-test, nl-crowdedhouse, nl-nessie, nl-OCD for running in local environment
+- [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
+- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
+- [ ] Add strict typing for nl-genesis
+- [ ] Look up gitops
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 - [ ] Look into [stuff for taxes](stuff for taxes)
 - [ ] Call up lauren regarding the next steps regarding the return
-- [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
 - [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
-- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
-- [ ] Work on [interviewBit](interviewBit)
 
 ## Done
 
+- [X] Try to move all variable in local env file for nl-macygrey
+- [X] Update documentation to put off the other endpoints
+- [X] Send current list of stuff to najju.
+- [X] Deploy the application once everything is done.
+- [X] Send off the pull request to sharan with the api endpoints
+- [X] Call new market after school care.
+- [X] Respond to robert regarding the car.  Figure out how we want to do the accounting for it 
+- [X] 15 typing practice 
+- [X] Do we want to add queues to nl-genesis. Don't think so.
+- [X] Draft up proposal for additional endpoints
+- [X] Print the pod paperwork. Ask glen how to add printers in linux
+- [X] Look at the scripts sarmed has set up the development environment
+- [X] Talk to Paul regarding the new functionality for nl-macygrey
+- [X] Test out the get endpoints in the client
 - [X] Create symlinks for all credentials. Look into app to hide env variables
 - [X] See how I can get the same functionality with insomnia
 - [X] Play with generics a bit, build some simple script
