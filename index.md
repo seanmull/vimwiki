@@ -1,6 +1,14 @@
 ## In work
 
-- [ ] Look for games to practice vim motions
+- [ ] Look into i3
+- [ ] Add the message to send to ocd when table is updated
+- [X] Update the readme
+- [X] Learn about [Lazygit](Lazygit). See if its worth the hassle
+- [ ] Remember to update the production biggie-smalls with ingestion
+- [X] 15 of typing
+- [ ] Write up some insomnia script
+- [X] Fix the serial for groups and clients
+
 
  ## Useful references
 - [Snippets](Snippets)
@@ -23,8 +31,8 @@
 
 ## Backlog
 
+- [ ] Add the cost of the cleaners to the bill
 - [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
-- [ ] Learn about Lazygit. See if its worth the hassle
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 - [ ] Set up nl-test, nl-crowdedhouse, nl-nessie, nl-OCD for running in local environment
 - [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
@@ -40,6 +48,15 @@
 
 ## Done
 
+- [X] Try to get OCD to work in development.
+- [X] Deploy macygrey to namespaces.
+- [X] Finish implementation of endpoints.
+- [X] Add functionality to throw error if no clients or groups on the greylist
+- [X] Change the query to hdms.live system_info, just get the system code
+- [X] 15 minutes of typing
+- [X] Print over the after hours stuff
+- [X] Ask if mary needs to clear any other stuff
+- [X] Send message to miles
 - [X] Try to move all variable in local env file for nl-macygrey
 - [X] Update documentation to put off the other endpoints
 - [X] Send current list of stuff to najju.
