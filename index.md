@@ -2,12 +2,8 @@
 
 - [ ] Look into i3
 - [ ] Add the message to send to ocd when table is updated
-- [X] Update the readme
-- [X] Learn about [Lazygit](Lazygit). See if its worth the hassle
 - [ ] Remember to update the production biggie-smalls with ingestion
-- [X] 15 of typing
-- [ ] Write up some insomnia script
-- [X] Fix the serial for groups and clients
+- [ ] Get crowdedhouse up and running in namespaces talk to sarmed about this
 
 
  ## Useful references
@@ -48,6 +44,11 @@
 
 ## Done
 
+- [X] Update the readme
+- [X] Learn about [Lazygit](Lazygit). See if its worth the hassle
+- [X] 15 of typing
+- [X] Write up some insomnia script
+- [X] Fix the serial for groups and clients
 - [X] Try to get OCD to work in development.
 - [X] Deploy macygrey to namespaces.
 - [X] Finish implementation of endpoints.
