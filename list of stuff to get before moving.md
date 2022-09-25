@@ -1,15 +1,15 @@
 ## Moving list
 
-- [ ] Dining table set
+- [ ] Refrigerator (ask mana if they want to buy new frig)
+- [ ] Washer
+- [ ] 2 Mattress bases
 - [ ] TV
-- [ ] Refrigerator
 - [ ] Microwave
 - [ ] Kettle
 - [ ] Toaster
-- [ ] Washer
 - [ ] Dryer
-- [ ] 2 Mattress bases
-- [ ] Coffee table
+- [ ] Dining table set
+- [X] Coffee table
 - [ ] Standing lamps
 - [ ] 2 x Drawers
 - [ ] Bookcases

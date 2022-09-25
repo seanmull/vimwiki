@@ -1,10 +1,11 @@
 ## In work
 
-- [ ] Look into i3
-- [ ] Add the message to send to ocd when table is updated
+- [ ] 15 of typing
+- [ ] Ask brad or sarmad about how to check if event queue is working
+- [ ] Update .env to match up with whats in dev cluster.  If this doesn't work try the test branch.
 - [ ] Remember to update the production biggie-smalls with ingestion
-- [ ] Get crowdedhouse up and running in namespaces talk to sarmed about this
-
+- [ ] Look into i3
+- [ ] [List of stuff to move](List of stuff to move)
 
  ## Useful references
 - [Snippets](Snippets)
@@ -46,7 +47,6 @@
 
 - [X] Update the readme
 - [X] Learn about [Lazygit](Lazygit). See if its worth the hassle
-- [X] 15 of typing
 - [X] Write up some insomnia script
 - [X] Fix the serial for groups and clients
 - [X] Try to get OCD to work in development.
