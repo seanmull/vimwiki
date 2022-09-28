@@ -1,14 +1,15 @@
 ## In work
 
-- [X] 15 of typing
-- [X] Get further clarification on the info paul wanted, he showed a couple columns how do they make up what he is asking for.
-- [ ] Work on the logic for adding the params for crowdedhouse
-- [X] Ask brad or sarmad about how to check if event queue is working
+- [ ] 15 of typing
 - [ ] Remember to update the production biggie-smalls with ingestion
+- [ ] Gather info to talk to Lauren from shipping
+- [ ] Test out some better tools to navigate kubernetes. Lens
+- [ ] Talk to Mary today regarding taking 40K out of mechanics
 - [ ] [List of stuff to move](List of stuff to move)
 - [ ] [Anniversary ideas](Anniversary ideas)
-- [ ] Test out some better tools to navigate kubernetes. Lens
-- [ ] Change spacing from 2 to 4
+- [ ] Gather info on talking to EDD regarding getting access to account
+- [ ] Figure out how to change formatting.
+- [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
 
  ## Useful references
 - [Snippets](Snippets)
@@ -31,24 +32,22 @@
 
 ## Backlog
 
+- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
+- [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 - [ ] Add the cost of the cleaners to the bill
 - [ ] Look into i3
-- [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
-- [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
-- [ ] Set up nl-test, nl-crowdedhouse, nl-nessie, nl-OCD for running in local environment
 - [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
-- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Add strict typing for nl-genesis
-- [ ] Look up gitops
 - [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 - [ ] Look into [stuff for taxes](stuff for taxes)
-- [ ] Call up lauren regarding the next steps regarding the return
 - [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
-- [ ] Review [sharans lecture on K8](sharans lecture on K8)
 - [ ] Learn how sarmed built his API from scratch
 
 ## Done
 
+- [X] Get further clarification on the info paul wanted, he showed a couple columns how do they make up what he is asking for.
+- [X] Ask brad or sarmad about how to check if event queue is working
+- [X] Work on the logic for adding the params for crowdedhouse
 - [X] Update the readme
 - [X] Learn about [Lazygit](Lazygit). See if its worth the hassle
 - [X] Write up some insomnia script
