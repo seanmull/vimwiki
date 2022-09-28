@@ -1,11 +1,14 @@
 ## In work
 
-- [ ] 15 of typing
-- [ ] Ask brad or sarmad about how to check if event queue is working
-- [ ] Update .env to match up with whats in dev cluster.  If this doesn't work try the test branch.
+- [X] 15 of typing
+- [X] Get further clarification on the info paul wanted, he showed a couple columns how do they make up what he is asking for.
+- [ ] Work on the logic for adding the params for crowdedhouse
+- [X] Ask brad or sarmad about how to check if event queue is working
 - [ ] Remember to update the production biggie-smalls with ingestion
-- [ ] Look into i3
 - [ ] [List of stuff to move](List of stuff to move)
+- [ ] [Anniversary ideas](Anniversary ideas)
+- [ ] Test out some better tools to navigate kubernetes. Lens
+- [ ] Change spacing from 2 to 4
 
  ## Useful references
 - [Snippets](Snippets)
@@ -29,6 +32,7 @@
 ## Backlog
 
 - [ ] Add the cost of the cleaners to the bill
+- [ ] Look into i3
 - [ ] Ask Paul some questions.  Am I pulling the right data?  Are the serials in biggie-smalls?
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 - [ ] Set up nl-test, nl-crowdedhouse, nl-nessie, nl-OCD for running in local environment

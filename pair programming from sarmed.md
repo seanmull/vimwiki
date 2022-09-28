@@ -161,3 +161,14 @@ This one is useful for setting up a debug env
 https://nightlifemusic.atlassian.net/wiki/spaces/GHQ/pages/2092040245/Debugging
 This one is useful for understanding the folders in mono and namespaces:
 https://nightlifemusic.atlassian.net/wiki/spaces/GHQ/pages/2092990477/Folder+Structures+in+Mono
+
+How to deploy a container to dev:
+- Use bitbucket pipelines to "deploy only" the container you need.
+- If you need the env for enter the following:
+```
+kubectl exec -it deploy/nl-crowded-house -- sh -c "env | grep -v PATH" > .env
+```
+Note: Make sure the scale down afterwards
+
+Go to here to see the ocd queue you need to add to ocd:
+https://rmq.dev.nightlifr.com/#/queues/%2F/nl-ocd.default.event
