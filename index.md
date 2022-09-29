@@ -1,21 +1,25 @@
 ## In work
 
-- [ ] 15 of typing
+- [X] 15 of typing
+- [ ] Update crowdedhouse with the new query
 - [ ] Remember to update the production biggie-smalls with ingestion
-- [ ] Gather info to talk to Lauren from shipping
-- [ ] Test out some better tools to navigate kubernetes. Lens
+- [ ] Add the listener to OCD
 - [ ] Talk to Mary today regarding taking 40K out of mechanics
 - [ ] [List of stuff to move](List of stuff to move)
 - [ ] [Anniversary ideas](Anniversary ideas)
-- [ ] Gather info on talking to EDD regarding getting access to account
-- [ ] Figure out how to change formatting.
+- [ ] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
+- [ ] Test out some better tools to navigate kubernetes. Lens
 - [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
+- [X] Gather info to [talk to Lauren from shipping](talk to Lauren from shipping)
+- [X] Figure out how to change formatting.
+- [ ] Talk to sharan regarding the two services he wanted me to look at.
 
  ## Useful references
 - [Snippets](Snippets)
 - [Stack Overflow](Stack Overflow)
 - [set up a typescript project](set up a typescript project)
 - [Paths and env](Paths and env)
+- [SQL](SQL)
 
 ### Vim
 
