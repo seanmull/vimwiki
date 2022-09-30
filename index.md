@@ -1,18 +1,17 @@
 ## In work
 
 - [X] 15 of typing
+- [X] Send message to mary letting her know what I am doing
 - [ ] Update crowdedhouse with the new query
-- [ ] Remember to update the production biggie-smalls with ingestion
-- [ ] Add the listener to OCD
-- [ ] Talk to Mary today regarding taking 40K out of mechanics
+- [X] Remember to update the production biggie-smalls with ingestion
+- [X]   (Check to see if this problem is in the other branch) Fix bug with ingestion script
+- [ ] Put a deployment plan for macygrey table
+- [ ] Add the listener to OCD, check to see if it was merged
 - [ ] [List of stuff to move](List of stuff to move)
 - [ ] [Anniversary ideas](Anniversary ideas)
 - [ ] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
 - [ ] Test out some better tools to navigate kubernetes. Lens
 - [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
-- [X] Gather info to [talk to Lauren from shipping](talk to Lauren from shipping)
-- [X] Figure out how to change formatting.
-- [ ] Talk to sharan regarding the two services he wanted me to look at.
 
  ## Useful references
 - [Snippets](Snippets)
@@ -49,6 +48,8 @@
 
 ## Done
 
+- [X] Gather info to [talk to Lauren from shipping](talk to Lauren from shipping)
+- [X] Figure out how to change formatting.
 - [X] Get further clarification on the info paul wanted, he showed a couple columns how do they make up what he is asking for.
 - [X] Ask brad or sarmad about how to check if event queue is working
 - [X] Work on the logic for adding the params for crowdedhouse
