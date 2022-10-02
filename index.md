@@ -1,19 +1,20 @@
 ## In work
 
 - [X] 15 of typing
+- [ ] 15 vim practice - focus on numbers, vertical movement, f, t, v-mode 
+- [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
+- [ ] Talk to Allison to get funds transferred.
 - [ ] Update crowdedhouse with the new query
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Put a deployment plan for macygrey table
 - [ ] Add the listener to OCD, check to see if it was merged
-- [ ] Talk to Allison to get funds transfered.
+- [ ] Learn how to enter and exit vim within terminal with jk 
 - [ ] Look over design patterns from fireship io
 - [ ] Go over helpful terminal commands
-- [ ] Look at computer chairs at officemax
-- [ ] Learn how to enter and exit vim within terminal with jk 
+- [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
+- [ ] Look at computer chairs at office-max
 - [ ] [Anniversary ideas](Anniversary ideas)
 - [ ] [List of stuff to move](List of stuff to move)
-- [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
-- [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
 
  ## Useful references
 - [Snippets](Snippets)
