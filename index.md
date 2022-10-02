@@ -1,16 +1,19 @@
 ## In work
 
 - [X] 15 of typing
-- [X] Send message to mary letting her know what I am doing
 - [ ] Update crowdedhouse with the new query
-- [X] Remember to update the production biggie-smalls with ingestion
-- [X]   (Check to see if this problem is in the other branch) Fix bug with ingestion script
+- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Put a deployment plan for macygrey table
 - [ ] Add the listener to OCD, check to see if it was merged
+- [ ] Talk to Allison to get funds transfered.
+- [ ] Look over design patterns from fireship io
+- [ ] Go over helpful terminal commands
+- [ ] Look at computer chairs
+- [ ] Learn how to enter and exit vim within terminal with jk 
 - [ ] [List of stuff to move](List of stuff to move)
 - [ ] [Anniversary ideas](Anniversary ideas)
 - [ ] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
-- [ ] Test out some better tools to navigate kubernetes. Lens
+- [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
 - [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
 
  ## Useful references
@@ -35,7 +38,6 @@
 
 ## Backlog
 
-- [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 - [ ] Add the cost of the cleaners to the bill
 - [ ] Look into i3
@@ -48,6 +50,9 @@
 
 ## Done
 
+- [X] Send message to mary letting her know what I am doing
+- [X] Remember to update the production biggie-smalls with ingestion
+- [X]   (Check to see if this problem is in the other branch) Fix bug with ingestion script
 - [X] Gather info to [talk to Lauren from shipping](talk to Lauren from shipping)
 - [X] Figure out how to change formatting.
 - [X] Get further clarification on the info paul wanted, he showed a couple columns how do they make up what he is asking for.
