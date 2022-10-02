@@ -8,11 +8,10 @@
 - [ ] Talk to Allison to get funds transfered.
 - [ ] Look over design patterns from fireship io
 - [ ] Go over helpful terminal commands
-- [ ] Look at computer chairs
+- [ ] Look at computer chairs at officemax
 - [ ] Learn how to enter and exit vim within terminal with jk 
-- [ ] [List of stuff to move](List of stuff to move)
 - [ ] [Anniversary ideas](Anniversary ideas)
-- [ ] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
+- [ ] [List of stuff to move](List of stuff to move)
 - [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
 - [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
 
@@ -50,6 +49,7 @@
 
 ## Done
 
+- [X] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
 - [X] Send message to mary letting her know what I am doing
 - [X] Remember to update the production biggie-smalls with ingestion
 - [X]   (Check to see if this problem is in the other branch) Fix bug with ingestion script
