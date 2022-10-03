@@ -8,7 +8,8 @@
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Put a deployment plan for macygrey table
 - [ ] Add the listener to OCD, check to see if it was merged
-- [ ] Learn how to enter and exit vim within terminal with jk 
+- [ ] Get formatter for markdown
+- [X] Learn how to enter and exit vim within terminal with jk 
 - [ ] Look over design patterns from fireship io
 - [ ] Go over helpful terminal commands
 - [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
