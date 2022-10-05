@@ -1,18 +1,11 @@
 ## In work
 
-- [X] 15 of typing
-- [ ] 15 vim practice - focus on numbers, vertical movement, f, t, v-mode 
-- [ ] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
-- [ ] Talk to Allison to get funds transferred.
+- [X] 15 of typing, focus on speed and numbers, special characters
+- [X] 15 vim practice - focus on numbers, vertical movement, f, t, v-mode 
 - [ ] Update crowdedhouse with the new query
+- [ ] Add the listener to OCD, check to see if it was merged
 - [ ] Study [rabbitMQ](rabbitMQ) pub-sub
 - [ ] Put a deployment plan for macygrey table
-- [ ] Add the listener to OCD, check to see if it was merged
-- [ ] Get formatter for markdown
-- [X] Learn how to enter and exit vim within terminal with jk 
-- [ ] Look over design patterns from fireship io
-- [ ] Go over helpful terminal commands
-- [ ] Test out some better tools to navigate kubernetes. Lens, k8 for vim
 - [ ] Look at computer chairs at office-max
 - [ ] [Anniversary ideas](Anniversary ideas)
 - [ ] [List of stuff to move](List of stuff to move)
@@ -23,6 +16,7 @@
 - [set up a typescript project](set up a typescript project)
 - [Paths and env](Paths and env)
 - [SQL](SQL)
+- [Helpful bash](Helpful bash)
 
 ### Vim
 
@@ -39,7 +33,9 @@
 
 ## Backlog
 
+- [ ] Get formatter for markdown
 - [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
+- [ ] Look over design patterns from fireship io
 - [ ] Add the cost of the cleaners to the bill
 - [ ] Look into i3
 - [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
@@ -51,6 +47,12 @@
 
 ## Done
 
+- [X] Test out some better tools to navigate kubernetes. Lens, k8 for vim
+- [X] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27
+- [X] Learn how to enter and exit vim within terminal with jk 
+- [X] Go over helpful terminal commands
+- [X] Talk to Allison to get funds transferred.
+- [X] Call up [mechanics bank for money transfer](mechanics bank for money transfer)
 - [X] Gather info on talking to [EDD regarding getting access to account](EDD regarding getting access to account)
 - [X] Send message to mary letting her know what I am doing
 - [X] Remember to update the production biggie-smalls with ingestion
