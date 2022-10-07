@@ -3,10 +3,7 @@
 -   [x] 15 of typing, focus on speed and numbers, special characters
 -   [x] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
 -   [ ] Ask about priorities
--   [x] Go to the mall and get card and look over some present ideas.
--   [x] Update crowdedhouse with the new query. Talk to rob before implementing it
--   [x] Test out OCD change by making a test branch
--   [x] Study [rabbitMQ](rabbitMQ) pub-sub
+-   [ ] Need to book place to eat and figure out present
 -   [ ] Put a deployment plan for macygrey table
 -   [ ] [List of stuff to move](List of stuff to move)
 -   [ ] Book scooter.
@@ -53,6 +50,9 @@
 
 ## Done
 
+-   [x] Update crowdedhouse with the new query. Talk to rob before implementing it
+-   [x] Test out OCD change by making a test branch
+-   [x] Study [rabbitMQ](rabbitMQ) pub-sub
 -   [x] Talk to Paul when he gets back. 7-5:30 for two days btw Oct 27 Usually close up 5:15
 -   [x] Get formatter for markdown
 -   [x] Learn about different bash commands from phone

@@ -3,6 +3,7 @@
 -   Start here https://wiki.bash-hackers.org/scripting/basics
 -   Basic commands: https://wiki.bash-hackers.org/syntax/basicgrammar
 -   Defensive-bash-programming https://web.archive.org/web/20180917174959/http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming
+-   Main list -https://github.com/awesome-lists/awesome-bash
 
 ## Bash utils
 
