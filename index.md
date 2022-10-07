@@ -8,6 +8,14 @@
 -   [ ] [List of stuff to move](List of stuff to move)
 -   [ ] Book scooter.
 -   [ ] 15 vim practice - focus on numbers, vertical movement, f, t, v-mode
+-   [ ] Put in shell check for bash
+-   [ ] Learn good tips to developing bash in vim
+-   [ ] Install yaml snippets and try them out
+-   [ ] Look into there be a sql client for vim
+-   [ ] Start backing up ubuntu and ask IT how they can back up my machine if it crashes
+-   [ ] Start using make files to update versions
+-   [ ] Talk to mechanics bank about closing account
+-   [ ] Come up with light workout routine
 
 ## Useful references
 
