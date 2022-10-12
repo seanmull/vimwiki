@@ -4,6 +4,7 @@
 -   Basic commands: https://wiki.bash-hackers.org/syntax/basicgrammar
 -   Defensive-bash-programming https://web.archive.org/web/20180917174959/http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming
 -   Main list -https://github.com/awesome-lists/awesome-bash
+-   Explain shell to find out what the command is doing
 
 ## Bash utils
 
@@ -21,3 +22,5 @@
 -   fg to put it foreground
 
 ## Syntax
+
+use :Shfmt : May want to hot key this when I start writing in bash

@@ -1,21 +1,21 @@
 ## In work
 
--   [x] 15 of typing, focus on speed and numbers, special characters
--   [x] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
--   [ ] Ask about priorities
--   [ ] Need to book place to eat and figure out present
--   [ ] Put a deployment plan for macygrey table
--   [ ] [List of stuff to move](List of stuff to move)
--   [ ] Book scooter.
--   [ ] 15 vim practice - focus on numbers, vertical movement, f, t, v-mode
--   [ ] Put in shell check for bash
--   [ ] Learn good tips to developing bash in vim
--   [ ] Install yaml snippets and try them out
--   [ ] Look into there be a sql client for vim
--   [ ] Start backing up ubuntu and ask IT how they can back up my machine if it crashes
--   [ ] Start using make files to update versions
+-   [X] Ask someone how to get files from rob regarding door
+-   [ ] Configure lens
+-   [ ] Draft up proposal for OCD_chatterbox.
+-   [X] 15 of typing, focus on speed and numbers, special characters
+-   [ ] How they can back up my machine if it crashes. Look into one drive
 -   [ ] Talk to mechanics bank about closing account
--   [ ] Come up with light workout routine
+-   [ ] Look into [auditory processing disorder](auditory processing disorder)
+
+## Scripting ideas
+
+-   Update schema and generate from anywhere in file path
+-   Add a path to $PATH
+-   Run bash from vim
+-   Update versions for various and commit/push
+-   Look into makefiles to organize your scripts
+-  Look into hitting the bitbucket api for deployments
 
 ## Useful references
 
@@ -25,7 +25,7 @@
 -   [Paths and env](Paths and env)
 -   [SQL](SQL)
 -   [Helpful bash](Helpful bash)
--   [K9s](K9s)
+-   [K9s](K9s). 
 
 ### Vim
 
@@ -43,11 +43,18 @@
 
 ## Backlog
 
+-   [ ] [List of stuff to move](List of stuff to move)
 -   [ ] [Anniversary ideas](Anniversary ideas)
+-   [ ] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 -   [ ] Write up something for doors talk with rob
+-   [ ] Come up with light workout routine
+-   [ ] Look at the kutz treesitter thing. Make the color a little more promenent
+-   [ ] Look into grafana https://grafana.prod.nightlifr.com/
+-   [ ] Pick out some bash boilerplate
 -   [ ] Look over design patterns from fireship io
--   [ ] Add the cost of the cleaners to the bill
+-   [ ] Look into there be a sql client for vim
+-   [ ] Install yaml snippets and try them out
 -   [ ] Look into i3
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
 -   [ ] Add strict typing for nl-genesis
@@ -58,6 +65,14 @@
 
 ## Done
 
+-   [x] Need to [book place to eat](book place to eat)
+-   [x] [Book scooter](Book scooter).
+-   [x] Figure out present
+-   [x] Draft up what [to write for anniversary card](to write for anniversary card).
+-   [x] Ask rob if the changes were implemented for nl-crowdedhouse to production
+-   [x] Talk with [sharan about deployment plan](sharan about deployment plan)
+-   [x] Try to get shfmt to work
+-   [x] Put in shell check for bash
 -   [x] Update crowdedhouse with the new query. Talk to rob before implementing it
 -   [x] Test out OCD change by making a test branch
 -   [x] Study [rabbitMQ](rabbitMQ) pub-sub
@@ -65,6 +80,7 @@
 -   [x] Get formatter for markdown
 -   [x] Learn about different bash commands from phone
 -   [x] Look at computer chairs at office-max
+-   [x] Learn good tips to developing bash in vim
 -   [x] Test out some better tools to navigate kubernetes. Lens, k8 for vim
 -   [x] Learn how to enter and exit vim within terminal with jk
 -   [x] Go over helpful terminal commands
