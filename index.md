@@ -1,21 +1,23 @@
 ## In work
 
--   [X] Ask someone how to get files from rob regarding door
--   [ ] Configure lens
--   [ ] Draft up proposal for OCD_chatterbox.
--   [X] 15 of typing, focus on speed and numbers, special characters
--   [ ] How they can back up my machine if it crashes. Look into one drive
+-   [ ] Draft up [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
+-   [x] 15 of typing, focus on speed and numbers, special characters
 -   [ ] Talk to mechanics bank about closing account
--   [ ] Look into [auditory processing disorder](auditory processing disorder)
+-   [x] Contact Allison and Debbie
+-   [ ] Set up OCD for the namespace
 
-## Scripting ideas
+## Scripting [ideas](ideas)
 
 -   Update schema and generate from anywhere in file path
+-   Listen to log given a file path
+-   Update versions for various and commit/push
+-   Create symlink farm with stow for all credential launch stuff
+-   Look into script to send emails
 -   Add a path to $PATH
 -   Run bash from vim
--   Update versions for various and commit/push
 -   Look into makefiles to organize your scripts
--  Look into hitting the bitbucket api for deployments
+-   Look into hitting the Bit-bucket API for deployments
+-   Come up with script to backup with one drive
 
 ## Useful references
 
@@ -25,7 +27,7 @@
 -   [Paths and env](Paths and env)
 -   [SQL](SQL)
 -   [Helpful bash](Helpful bash)
--   [K9s](K9s). 
+-   [K9s](K9s).
 
 ### Vim
 
@@ -44,10 +46,11 @@
 ## Backlog
 
 -   [ ] [List of stuff to move](List of stuff to move)
--   [ ] [Anniversary ideas](Anniversary ideas)
--   [ ] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
+-   [ ] [Anniversary ideas](Anniversary ideas) - [ ] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
+-   [ ] Work through any other cool stuff you can do with bash in vim
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 -   [ ] Write up something for doors talk with rob
+-   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Come up with light workout routine
 -   [ ] Look at the kutz treesitter thing. Make the color a little more promenent
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
@@ -65,6 +68,9 @@
 
 ## Done
 
+-   [x] How they can back up my machine if it crashes. Look into one drive
+-   [x] Ask someone how to get files from rob regarding door
+-   [x] Configure lens
 -   [x] Need to [book place to eat](book place to eat)
 -   [x] [Book scooter](Book scooter).
 -   [x] Figure out present
