@@ -5,18 +5,18 @@
 -   [ ] Talk to mechanics bank about closing account
 -   [x] Contact Allison and Debbie
 -   [ ] Set up OCD for the namespace
+-   [X] Update schema and generate from anywhere in file path
+-   [ ] Listen to log given a file path
 
 ## Scripting [ideas](ideas)
 
--   Update schema and generate from anywhere in file path
--   Listen to log given a file path
 -   Update versions for various and commit/push
 -   Create symlink farm with stow for all credential launch stuff
--   Look into script to send emails
+-   Look into hitting the Bit-bucket API for deployments
 -   Add a path to $PATH
+-   Look into script to send emails
 -   Run bash from vim
 -   Look into makefiles to organize your scripts
--   Look into hitting the Bit-bucket API for deployments
 -   Come up with script to backup with one drive
 
 ## Useful references

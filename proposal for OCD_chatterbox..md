@@ -135,5 +135,31 @@ Since the controllers are all called as instances we would need to store that st
 
 #### Data going from OCD to chatterbox
 
+```typescript
+    this.jobsStatusController
+        .setTimeTillNextCheck(Number(row.info.replace(/"/g, '')))
+    this.jobsStatusController
+        .checkStatusTask.interval = this.jobsStatusController
+                                        .getTimeTillNextCheck()
+    this.jobsStatusController.updateDatabase()
+```
 
+```typescript
+    this.jobsStatusController.addListener("status", (data) => {
+    this.ocdService.loadBalancing
+        .updateStatus(data.system_id, data.paused, data.job_type)
+    })
+
+    this.jobsStatusController.addListener
+                    ("user_job_errors", (data) => {
+    this.cleanUpErroredUserJobsController.setErrors(data)
+    })
+
+    this.jobsStatusController.addListener
+                    ("update_job_status", (data) => {
+    this.ocdService.loadBalancing.updateJobStatus(data)
+    })
+```
+Proposed design: We would need to replace addListener/emit to RMQ Pub/Sub solution since we are firing methods from OCD.
 ### All the state that chatterbox produces
+
