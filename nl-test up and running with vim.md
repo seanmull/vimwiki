@@ -38,6 +38,8 @@ able to replace this with the right values:
 },
 ```
 
+Note: The RMQ host overwrites the .env file.  Want to do this by default.
+
 Example of working config
 ```
   {

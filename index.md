@@ -3,20 +3,18 @@
 -   [ ] Draft up [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
 -   [x] 15 of typing, focus on speed and numbers, special characters
 -   [ ] Talk to mechanics bank about closing account
--   [x] Contact Allison and Debbie
--   [ ] Set up OCD for the namespace
--   [X] Update schema and generate from anywhere in file path
--   [ ] Listen to log given a file path
+-   [ ] Start testing out different scripts from Sarmed
+-   [ ] Get function to show alias
+-   [ ] Add replacements to nvim-dap
+-   [ ] Set up logs for nvim-dap and lvim
+-   [ ] Add some more global variables
 
 ## Scripting [ideas](ideas)
 
 -   Update versions for various and commit/push
+-   Investigate makefile that goes to scripts directory
 -   Create symlink farm with stow for all credential launch stuff
--   Look into hitting the Bit-bucket API for deployments
--   Add a path to $PATH
 -   Look into script to send emails
--   Run bash from vim
--   Look into makefiles to organize your scripts
 -   Come up with script to backup with one drive
 
 ## Useful references
@@ -51,6 +49,7 @@
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
 -   [ ] Write up something for doors talk with rob
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
+-   [ ] Play with sed, yq, jq, awk
 -   [ ] Come up with light workout routine
 -   [ ] Look at the kutz treesitter thing. Make the color a little more promenent
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
@@ -68,6 +67,10 @@
 
 ## Done
 
+-   [x] Set up OCD for the namespace
+-   [x] Listen to log given a file path
+-   [x] Contact Allison and Debbie
+-   [x] Update schema and generate from anywhere in file path
 -   [x] How they can back up my machine if it crashes. Look into one drive
 -   [x] Ask someone how to get files from rob regarding door
 -   [x] Configure lens

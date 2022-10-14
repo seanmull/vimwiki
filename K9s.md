@@ -10,3 +10,4 @@ How to look at pods
 How to look at logs
 
 1. hover over pods and press l
+
