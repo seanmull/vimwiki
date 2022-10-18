@@ -1,13 +1,16 @@
 ## In work
 
--   [ ] Draft up [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
--   [x] 15 of typing, focus on speed and numbers, special characters
--   [ ] Talk to mechanics bank about closing account
--   [ ] Start testing out different scripts from Sarmed
--   [ ] Get function to show alias
--   [ ] Add replacements to nvim-dap
--   [ ] Set up logs for nvim-dap and lvim
--   [ ] Add some more global variables
+-   [X] 15 of typing, focus on speed and numbers, special characters
+-   [X] Start looking into nightlife wiki, maybe create my own paths.
+-   [ ] Look through ryans tutorial for bash. On filters
+-   [ ] Come up shopping list for diet
+-   [X] Update the google doc for the estate
+-   [x] Start testing out different scripts from Sarmed. Just look at the vhost apply and namespace essentials
+-   [X] Send era a message thanking her for all the help
+- [ ] Make updates to [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
+-   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
+-   [x] Follow up with lauren again
+-   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
 
 ## Scripting [ideas](ideas)
 
@@ -19,6 +22,7 @@
 
 ## Useful references
 
+-   [Nightlife wiki](Nightlife wiki)
 -   [Snippets](Snippets)
 -   [Stack Overflow](Stack Overflow)
 -   [set up a typescript project](set up a typescript project)
@@ -44,16 +48,16 @@
 ## Backlog
 
 -   [ ] [List of stuff to move](List of stuff to move)
--   [ ] [Anniversary ideas](Anniversary ideas) - [ ] 30 min of bash lessons. On section 6 now. May want to go look at other repos next
--   [ ] Work through any other cool stuff you can do with bash in vim
+-   [ ] Pick out 3 books to speedread
+-   [ ] Talk to mechanics bank about closing account
+-   [ ] Come up with a plan for continuing with leetCode. Learn C++ or continue with python
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
--   [ ] Write up something for doors talk with rob
+-   [ ] Ask mana for weights back
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Play with sed, yq, jq, awk
 -   [ ] Come up with light workout routine
 -   [ ] Look at the kutz treesitter thing. Make the color a little more promenent
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
--   [ ] Pick out some bash boilerplate
 -   [ ] Look over design patterns from fireship io
 -   [ ] Look into there be a sql client for vim
 -   [ ] Install yaml snippets and try them out
@@ -67,11 +71,19 @@
 
 ## Done
 
+-   [x] Work on taxes. Due end of October. Looks like it is done confirm with Najju
+-   [x] Send an [update to Deanna](update to Deanna) after 9 is bad for the kids
+-   [x] Try to [contact john](contact john)
+-   [x] Get function to show alias
+-   [x] Add replacements to nvim-dap. Investigate if this has already been implemented.
+-   [x] Set up logs for nvim-dap and lvim
+-   [x] Add some more global variables. Like mono_path
 -   [x] Set up OCD for the namespace
 -   [x] Listen to log given a file path
 -   [x] Contact Allison and Debbie
 -   [x] Update schema and generate from anywhere in file path
 -   [x] How they can back up my machine if it crashes. Look into one drive
+-   [x] Pick out some bash boilerplate
 -   [x] Ask someone how to get files from rob regarding door
 -   [x] Configure lens
 -   [x] Need to [book place to eat](book place to eat)

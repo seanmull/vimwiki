@@ -6,6 +6,32 @@
 -   Main list -https://github.com/awesome-lists/awesome-bash
 -   Explain shell to find out what the command is doing
 
+## Basic commands
+
+### Wildcards
+- "*" for wildcard search no place holder
+-   ls ap* will pick up apple.txt
+- ? for wildcard which is place holder specific
+-   ls ??l will pick up aal.txt but not aap.txt
+- [] for wildcards with ranges
+-   ls "*[0-9]*" will pick up foo1 foo2 ...
+- ^ for what doesn't meet a condition
+-   ls ^a will pick up ball but not apple
+
+### Permissions
+
+- If you want to give a file of folder full permissions
+```bash
+chmod 777 <some dir>
+```
+
+### Filters
+
+- head - prints the first of some text
+- tail - prints the last part of the text helpful with -f to follow the file
+- sort
+- nl - number of lines
+
 ## Bash utils
 
 -   ranger - good for searching for files
