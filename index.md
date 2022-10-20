@@ -1,22 +1,18 @@
 ## In work
 
--   [X] 15 of typing, focus on speed and numbers, special characters
--   [X] Start looking into nightlife wiki, maybe create my own paths.
--   [ ] Look through ryans tutorial for bash. On filters
--   [ ] Come up shopping list for diet
--   [X] Update the google doc for the estate
--   [x] Start testing out different scripts from Sarmed. Just look at the vhost apply and namespace essentials
--   [X] Send era a message thanking her for all the help
-- [ ] Make updates to [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
+-   [x] 15 of typing, focus on speed and numbers, special characters
+-   [ ] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
+-   [ ] [Helpful bash](Helpful bash). Ryans tutorial piping
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
--   [x] Follow up with lauren again
--   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
+-   [ ] Birthday ideas for Najju.
+-   [ ] Come up with plan to get a scooter for the commute to work.
+-   [ ] Buy office chairs to buy chair I found.
+-   [ ] Ask Paul for a wide monitor.
+-   [ ] Add my credit card for e-bay.
 
-## Scripting [ideas](ideas)
+## Scripting ideas
 
 -   Update versions for various and commit/push
--   Investigate makefile that goes to scripts directory
--   Create symlink farm with stow for all credential launch stuff
 -   Look into script to send emails
 -   Come up with script to backup with one drive
 
@@ -29,7 +25,6 @@
 -   [Paths and env](Paths and env)
 -   [SQL](SQL)
 -   [Helpful bash](Helpful bash)
--   [K9s](K9s).
 
 ### Vim
 
@@ -40,6 +35,7 @@
 ### Dev-ops
 
 -   [Kubernetes](Kubernetes)
+-   [K9s](K9s).
 
 ### Backends
 
@@ -48,29 +44,42 @@
 ## Backlog
 
 -   [ ] [List of stuff to move](List of stuff to move)
--   [ ] Pick out 3 books to speedread
--   [ ] Talk to mechanics bank about closing account
 -   [ ] Come up with a plan for continuing with leetCode. Learn C++ or continue with python
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
+-   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
 -   [ ] Ask mana for weights back
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
--   [ ] Play with sed, yq, jq, awk
 -   [ ] Come up with light workout routine
--   [ ] Look at the kutz treesitter thing. Make the color a little more promenent
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
 -   [ ] Look into there be a sql client for vim
--   [ ] Install yaml snippets and try them out
 -   [ ] Look into i3
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
--   [ ] Add strict typing for nl-genesis
+-   [ ] Add strict typing for nl-genesis?
 -   [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
--   [ ] Look into [stuff for taxes](stuff for taxes)
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
 -   [ ] Learn how sarmed built his API from scratch
 
 ## Done
 
+-   [x] Add shortcut for executing node and ts-node
+-   [x] Talk to lana about documentation and making Mary trustee.
+-   [x] Break work statement into [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
+-   [x] Look at the kutz treesitter thing. Make the color a little more promenent
+-   [x] Get in touch with Lana
+-   [x] Clean up my whichkey
+-   [x] Short key the path to lvim
+-   [x] Make some symlinks for whichkey core
+-   [x] Add dap log to logs
+-   [x] Talk to mechanics bank about closing account
+-   [x] Make updates to [proposal for OCD_chatterbox.](proposal for OCD_chatterbox.)
+-   [x] Come up shopping list for diet
+-   [x] Start looking into nightlife wiki, maybe create my own paths.
+-   [x] Update the google doc for the estate
+-   [x] Start testing out different scripts from Sarmed. Just look at the vhost apply and namespace essentials
+-   [x] Follow up with lauren again
+-   [x] Pick out 3 books to speedread
+-   [x] Send era a message thanking her for all the help
 -   [x] Work on taxes. Due end of October. Looks like it is done confirm with Najju
 -   [x] Send an [update to Deanna](update to Deanna) after 9 is bad for the kids
 -   [x] Try to [contact john](contact john)

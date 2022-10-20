@@ -1,4 +1,4 @@
-# Helpful links
+# Confluence
 
 Mono
 https://nightlifemusic.atlassian.net/wiki/spaces/~607849582/pages/2068250633/Mono+-+Nightlife+s+Monorepo
@@ -15,7 +15,7 @@ https://nightlifemusic.atlassian.net/wiki/spaces/~607849582/pages/2101018643/Imp
 Setting up debuggers
 https://nightlifemusic.atlassian.net/wiki/spaces/GHQ/pages/2092040245/Mono+Debuggers+Tasks
 
-## Backends
+## Back-ends
 
 OCD
 Workflow
