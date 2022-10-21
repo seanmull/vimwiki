@@ -4,8 +4,8 @@
 -  [X] Determine where we want to put the shared stuff. Put shared library in backend.  Similar file
 and folder structure structure but striped down.
 -  [X] Need understand how the workspaces thing to create dependency tree.
-- [ ] Check if files are still removed.
--  [ ] Move all the shared stuff and test if everything works in OCD.
+- [X] Check if files are still removed.
+-  [X] Move all the shared stuff and test if everything works in OCD.
 -  [ ] Do a little research with redis just to understand how it works.
 -  [ ] Look over nessie stuff to get an idea how to use redis for nightlife apps
 -  [ ] Implement Redis cache in OCD.

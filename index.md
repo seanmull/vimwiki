@@ -8,7 +8,7 @@
 -   [ ] Come up with plan to get a scooter for the commute to work.
 -   [ ] Buy office chairs to buy chair I found.
 -   [ ] Ask Paul for a wide monitor.
--   [ ] Add my credit card for e-bay.
+-   [ ] Wait for cancellation of order from e-bay. Then remove it. 
 
 ## Scripting ideas
 
