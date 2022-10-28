@@ -9,4 +9,8 @@ Browser
 
 You need to hard default the browser to chrome since the api is clunky
 
+Vimwiki
+
+Need to commend out all the mappings in the plugin file
+
 

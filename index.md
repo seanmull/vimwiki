@@ -5,16 +5,16 @@
 -   [ ] [Helpful bash](Helpful bash). Ryans tutorial piping
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
 -   [ ] Birthday ideas for Najju.
--   [ ] Come up with plan to get a scooter for the commute to work.
--   [ ] Buy office chairs to buy chair I found.
--   [ ] Ask Paul for a wide monitor.
--   [ ] Wait for cancellation of order from e-bay. Then remove it. 
+-   [ ] Call up Lauren
 
 ## Scripting ideas
 
 -   Update versions for various and commit/push
 -   Look into script to send emails
--   Come up with script to backup with one drive
+
+## Data Science ideas
+
+-   Build visualization heat map of house prices in Brisbane.
 
 ## Useful references
 
@@ -44,24 +44,38 @@
 ## Backlog
 
 -   [ ] [List of stuff to move](List of stuff to move)
--   [ ] Come up with a plan for continuing with leetCode. Learn C++ or continue with python
--   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube
+-   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
--   [ ] Ask mana for weights back
+-   [ ] Look into some transparent backgrounds once I get Ultra-wide
+-   [ ] Plan for setting up the dev environment for data-science.
+-   [ ] Look into lazynpm
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Come up with light workout routine
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
+-   [ ] Schedule Smartride
 -   [ ] Look into there be a sql client for vim
 -   [ ] Look into i3
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
--   [ ] Add strict typing for nl-genesis?
 -   [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
 -   [ ] Learn how sarmed built his API from scratch
 
 ## Done
 
+-   [X] Look into [building a Neovim instance in docker.](building a Neovim instance in docker.)
+-   [x] Scan up the EIN number
+-   [x] Look into the Lor coffee maker
+-   [x] Find an office chair I like.
+-   [x] Book reservation at that [mediterianian place](mediterianian place). Macca bah
+-   [x] Watch over Spotify video
+-   [x] Update spreadsheet and check for errors
+-   [x] Ask [Paul for a wide monitor.](Paul for a wide monitor.)
+-   [x] Ask Paul if I can work from home 2 days a week until I get my whole transportation thing worked out.
+-   [x] Ask if they have any spare plastic mats
+-   [x] [Redis tutorial](Redis tutorial)
+-   [x] Wait for cancellation of order from e-bay. Then remove it.
+-   [x] Look into lazydocker.
 -   [x] Add shortcut for executing node and ts-node
 -   [x] Talk to lana about documentation and making Mary trustee.
 -   [x] Break work statement into [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
