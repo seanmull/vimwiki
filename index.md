@@ -1,11 +1,14 @@
 ## In work
 
--   [x] 15 of typing, focus on speed and numbers, special characters
+-   [ ] Crowdedhouse [bug with data inconsistency](bug with data inconsistency) follow up don't move
+-   [ ] [Helpful bash](Helpful bash). Ryans find
 -   [ ] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
--   [ ] [Helpful bash](Helpful bash). Ryans tutorial piping
+-   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
--   [ ] Birthday ideas for Najju.
--   [ ] Call up Lauren
+-   [X] Birthday ideas for Najju. Come up with [stuff to say for bday.](stuff to say for bday.)
+-   [ ] Look into times with pre learners for bike riding (07) 3855 3777
+-   [ ] Send more money to Lana. Do it tomorrow.
+-   [x] 15 of typing, focus on speed and numbers, special characters
 
 ## Scripting ideas
 
@@ -43,28 +46,37 @@
 
 ## Backlog
 
--   [ ] [List of stuff to move](List of stuff to move)
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
 -   [ ] Look into some transparent backgrounds once I get Ultra-wide
 -   [ ] Plan for setting up the dev environment for data-science.
+-   [ ] Look into i3
 -   [ ] Look into lazynpm
+-   [ ] Lunarvim: install apt install python3.10-venv
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Come up with light workout routine
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
 -   [ ] Schedule Smartride
 -   [ ] Look into there be a sql client for vim
--   [ ] Look into i3
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
--   [ ] Make [list of stuff to get before moving](list of stuff to get before moving)
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
 -   [ ] Learn how sarmed built his API from scratch
 
 ## Done
 
--   [X] Look into [building a Neovim instance in docker.](building a Neovim instance in docker.)
+-   [X] Set the reservation to 1 pm
+-   [X] Follow up with Paul regarding the monitor
+-   [X] Follow up with IT regarding the HDMS systems
+-   [x] Contact IT regarding h-drive access and rmq. Talk to sarmed about h-drive access
+-   [x] Play with the log levels to see if I can get response. Change to trace
+-   [x] Call up Lauren
+-   [x] Reinstall lunarvim with master branch. Do this when I get into the office.
+-   [x] Put together the api calls and store them on h-drive.
+-   [x] Look into [building a Neovim instance in docker.](building a Neovim instance in docker.)
+-   [x] Make [list of stuff to get before moving](list of stuff to get before moving)
 -   [x] Scan up the EIN number
+-   [x] [List of stuff to move](List of stuff to move)
 -   [x] Look into the Lor coffee maker
 -   [x] Find an office chair I like.
 -   [x] Book reservation at that [mediterianian place](mediterianian place). Macca bah

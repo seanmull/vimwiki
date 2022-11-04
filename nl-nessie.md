@@ -62,6 +62,6 @@ const alertKey = obj.Player + ':' + obj.Message
          
 ```
 You can go on the intranet and look in the daily log section to see all the logs for each system
-Hit F12 to get the json response the from the front end.  This can then be passed into the daily log to daignose if nessie will send the email.
+Hit F12 to get the json response the from the front end.  Go to networking then the response tab. This can then be passed into the daily log to daignose if nessie will send the email.
 
 If you get a message thats not in the map you will need to add it to the DB table.

@@ -11,14 +11,17 @@
 -   [x] Implement Redis cache in OCD-shared.
 -   [x] Build chatterbox using genesis.
 -   [x] Add in files.
--   [X] Change names and links
-- [ ] Try to deploy nl-ocd chatterbox
--   [ ] Set up dev environment
+-   [x] Change names and links
+-   [x] Set up queues for nl-ocd chatterbox
+-   [x] Need to get It to get me connected to the RMQ host
+-   [x] Get connected to RMQ
+-   [x] Set up queues in namespace with v-host
+-   [X] Add rpc handler for content job status. See ocd does it.
+- [ ] Figure out why I am not getting back data for this.  I suspect this is since I am not connected to nl-hdms
 -   [ ] Test out the RMQ connection
+-   [ ] Look at logs for chatterbox to see if everything is good
+-   [ ] Breakpoint so spot to see if everything is going as expected
 -   [ ] Implement Redis cache in OCD-chatterbox.
--   [ ] Make some sample mock Redis data to get chatterbox tested.
--   [ ] Test it with mock data.
--   [ ] Connect chatterbox to Redis.
 -   [ ] Look into implementing the pub-sub stuff with rmq
 -   [ ] Talk with sarmed to get a bit of overview of Prometheus
 -   [ ] Add in the Prometheus stuff.

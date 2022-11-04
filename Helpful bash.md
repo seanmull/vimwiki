@@ -70,6 +70,43 @@ chmod 777 <some dir>
 - "2>" - will take stderr and print it to a file. It will overwrite whatever content is there.
 - "2>>" - will take stderr and print it to a file. It will append to whatever content is there.
  
+## Background and foreground jobs 
+
+- jobs - to get list of running jobs
+- fg <job number> put job to foreground
+- CTRL-z to take something to foreground
+ 
+## Command line arguments 
+
+- $0 - The name of the script
+- "$1-$9" - Any command line arguments
+- $# - How many command line arguments
+- $* - All of the command line arguments
+- You can store the outcome of a script by using a variable enclosed with backticks
+Example:
+```bash
+cat backticks.sh
+#!/bin/bash
+# A simple demonstration of using backticks
+# Ryan 28/10/2022
+ 
+lines=`cat $1 | wc -l`
+echo The number of lines in the file $1 is $lines
+./backticks.sh testfile.txt
+The number of lines in the file testfile.txt is 12
+```
+## Bonus utilities
+
+- Cronjobs
+- crontab -l to list crontab -e to edit
+- xargs - allows transforming of data sort of like map 
+```bash
+basename -s .JPG -a *.JPG | xargs -n1 -i mv {}.JPG {}.jpg
+```
+The first stdio the prefix only and pipes it in as args to the second command.
+It changes the file extention
+- find -
+ 
 ## Bash utilities
 
 -   ranger - good for searching for files
