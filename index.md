@@ -1,14 +1,14 @@
 ## In work
 
--   [ ] Crowdedhouse [bug with data inconsistency](bug with data inconsistency) follow up don't move
--   [ ] [Helpful bash](Helpful bash). Ryans find
+-   [ ] Talk with IT regarding VPN
 -   [ ] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
--   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
--   [X] Birthday ideas for Najju. Come up with [stuff to say for bday.](stuff to say for bday.)
--   [ ] Look into times with pre learners for bike riding (07) 3855 3777
--   [ ] Send more money to Lana. Do it tomorrow.
--   [x] 15 of typing, focus on speed and numbers, special characters
+-   [ ] Look into a [Bro night with Lachy and Nathan](Bro night with Lachy and Nathan)
+-   [ ] Talk to matt about the Tesla
+-   [ ] [Helpful bash](Helpful bash). Ryans find
+- [ ] Respond to Lauren regarding the coorespondence.
+-   [X] Send lana and mary info related to bank details.
+-   [X] 15 of typing, focus on speed and numbers, special characters
 
 ## Scripting ideas
 
@@ -48,6 +48,7 @@
 
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
+-   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] Look into some transparent backgrounds once I get Ultra-wide
 -   [ ] Plan for setting up the dev environment for data-science.
 -   [ ] Look into i3
@@ -65,9 +66,15 @@
 
 ## Done
 
--   [X] Set the reservation to 1 pm
--   [X] Follow up with Paul regarding the monitor
--   [X] Follow up with IT regarding the HDMS systems
+-   [x] Look for [cars for sale](cars for sale)
+-   [x] Send more money to Lana. Do it tomorrow.
+-   [x] Look into times with [pre learners for bike riding](pre learners for bike riding) (07) 3855 3777
+-   [x] Respond to Mary
+-   [x] Crowdedhouse [bug with data inconsistency](bug with data inconsistency) follow up don't move
+-   [x] Set the reservation to 1 pm
+-   [x] Birthday ideas for Najju. Come up with [stuff to say for bday.](stuff to say for bday.)
+-   [x] Follow up with Paul regarding the monitor
+-   [x] Follow up with IT regarding the HDMS systems
 -   [x] Contact IT regarding h-drive access and rmq. Talk to sarmed about h-drive access
 -   [x] Play with the log levels to see if I can get response. Change to trace
 -   [x] Call up Lauren

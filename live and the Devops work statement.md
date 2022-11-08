@@ -1,3 +1,35 @@
+# Current tasks
+
+1. Read over what sarmed has done so far.
+2. Read over what brad has done so far.
+3. Try to schedule some time with Sarmed to discuss that node server and some stuff I need to be aware.  Not really sure what the structure of the meeting is
+
+## Key points for understanding migration plan
+
+### History
+1. Data was the location for the old cloud based applications. While production will the be the new location. 
+2. We have AWS managed environments that utilized docker images and are orchestrated by kubernetes.
+3. Data only holds the databases such as biggie smalls and redshift
+4. Live now has the following:
+    1. They are all containerized
+    2. They are all deployed on a kubernetes pod
+    3. Volumes are connected to make live changes
+    4. For changes to take affect you would need to restart the pod
+    5. This is just for development.
+5. RMQ is now highly available in the cluster, thanks to kubernetes operators.  This will allow us to deprecate nl-rmq.
+6. Prometheus is part of kubernetes operators as well.
+
+### Steps of the plan
+1. Building the production environment.
+2. Redirecting all media players to nightlife production
+3. Redirecting all enterprise productions to nightlife production
+4. Clean up nightlife data
+
+
+# Done
+
+1. Look over roles and [responsibilities for Devops.](responsibilities for Devops.)
+
 # Live and DevOps workstatement
 
 2 applications
