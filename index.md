@@ -1,16 +1,24 @@
 ## In work
 
 -   [x] 15 of typing, focus on speed and numbers, special characters
--   [x] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
+-   [ ] Figure out how to connect to the eks cluster in window using wsl may need to ask IT about this?
+-   [ ] Work with sarmed to get docker working in the ec2 instance
+-   [x] Book the massage. (Booked for friday at 11:00 am need to wait for confirmation)
+-   [x] Figure out how to fetch branches.
+-   [x] Get debugger to work in windows.
+-   [x] Schedule the pick up of the modem
+-   [ ] Ask lachy what to get juhi
+-   [x] Remove the rowdatapacket stuff from macygrey
+-   [x] Bring scripts from linux
+-   [x] Bring over the insomnia endpoints
 -   [ ] [Proposal for ocd-lite](Proposal for ocd-lite)
-- [ ] Figure out how to fix telescope.
--   [X] Print forms for the modem.
--   [x] Order another modem with TPG. Do this at home.
--   [ ] Figure out how to look at Redis
+-   [ ] Remove games from portable that I won't need.
+-   [ ] Buy gift for secret santa at work
 -   [ ] Look into [wayland vs x11 issue.](wayland vs x11 issue.)
+-   [ ] Tasks for [setting up windows machine](setting up windows machine)
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
--   [ ] Look into getting vpn working
--   [ ] Need to connect to Mongo and see whats going with the development instance
+-   [ ] Read up on the grokking algo book. Read a chapter a day.
+-   [x] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
 
 ## Scripting ideas
 
@@ -53,9 +61,12 @@
 -   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] Look into some transparent backgrounds once I get Ultra-wide
 -   [ ] Plan for setting up the dev environment for data-science.
+-   [ ] Look into getting vpn working
+-   [ ] Need to connect to Mongo and see whats going with the development instance
 -   [ ] Look into i3
 -   [ ] [Helpful bash](Helpful bash). Ryans find
 -   [ ] Look into lazynpm
+-   [ ] Figure out how to look at Redis
 -   [ ] Lunarvim: install apt install python3.10-venv
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
@@ -68,6 +79,9 @@
 
 ## Done
 
+-   [x] Figure out how to fix telescope.
+-   [x] Print forms for the modem.
+-   [x] Order another modem with TPG. Do this at home.
 -   [x] Look into sportage
 -   [x] Call up toyota and hyandai
 -   [x] Look into the numbers for the inheretance
