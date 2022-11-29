@@ -1,19 +1,10 @@
 ## In work
 
 -   [x] 15 of typing, focus on speed and numbers, special characters
--   [ ] Figure out how to connect to the eks cluster in window using wsl may need to ask IT about this?
--   [ ] Work with sarmed to get docker working in the ec2 instance
--   [x] Book the massage. (Booked for friday at 11:00 am need to wait for confirmation)
--   [x] Figure out how to fetch branches.
--   [x] Get debugger to work in windows.
--   [x] Schedule the pick up of the modem
+-   [ ] Talk with sarmed and glen to get set up with the pre-authenticated ubuntu instance
 -   [ ] Ask lachy what to get juhi
--   [x] Remove the rowdatapacket stuff from macygrey
--   [x] Bring scripts from linux
--   [x] Bring over the insomnia endpoints
 -   [ ] [Proposal for ocd-lite](Proposal for ocd-lite)
--   [ ] Remove games from portable that I won't need.
--   [ ] Buy gift for secret santa at work
+-   [ ] Buy gift for secret santa at work. Shop for something at the mall.
 -   [ ] Look into [wayland vs x11 issue.](wayland vs x11 issue.)
 -   [ ] Tasks for [setting up windows machine](setting up windows machine)
 -   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
@@ -79,6 +70,16 @@
 
 ## Done
 
+-   [x] Figure out how to connect to the eks cluster in window using wsl may need to ask IT about this?
+-   [x] Remove the rowdatapacket stuff from macygrey
+-   [x] Bring scripts from linux
+-   [x] Bring over the insomnia endpoints
+    -   [x] Remove games from portable that I won't need.
+- [x] Look into getting a different skin for k9s.
+-   [x] Book the massage. (Booked for friday at 11:00 am need to wait for confirmation)
+-   [x] Figure out how to fetch branches.
+-   [x] Get debugger to work in windows.
+-   [x] Schedule the pick up of the modem
 -   [x] Figure out how to fix telescope.
 -   [x] Print forms for the modem.
 -   [x] Order another modem with TPG. Do this at home.
