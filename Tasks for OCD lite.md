@@ -4,10 +4,11 @@
 -   [x] Figure out all the tasks names.
 -   [x] Look into dry run and see if I just want to do that for lite.
 -   [x] Build a more complete list of API calls in insomnia.
--   [ ] Figure out whats going with rmq error
+-   [ ] Update Job Send Status Task not supported will skip it.
 -   [ ] Try to start spin up two different application with same code base
 -   [ ] Try to get everything running in dev.
 
+-   [ ] Figure out whats going with rmq error. Cannot know what caused this.
 -   [ ] Run some queries to see if you see any speed difference. Don't think we need this.
 
 Task names
