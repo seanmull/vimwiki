@@ -1,24 +1,22 @@
 ## In work
 
--   [x] 15 of typing, focus on speed and numbers, special characters
--   [ ] Talk with sarmed and glen to get set up with the pre-authenticated ubuntu instance
--   [ ] Ask lachy what to get juhi
--   [ ] [Proposal for ocd-lite](Proposal for ocd-lite)
--   [ ] Buy gift for secret santa at work. Shop for something at the mall.
--   [ ] Look into [wayland vs x11 issue.](wayland vs x11 issue.)
--   [ ] Tasks for [setting up windows machine](setting up windows machine)
--   [ ] Get my [ozforex account reactivated](ozforex account reactivated). Call 1300 300 424(Local call)
--   [ ] Read up on the grokking algo book. Read a chapter a day.
--   [x] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
+-   [X] 15 of typing, focus on speed and numbers, special characters
+-   [ ] [Tasks for OCD lite](Tasks for OCD lite)
+- [ ] Pick out one topic from the backend roadmap and write a little about it.
+-   [x] Get docker to work in wsl.
+-   [X] Get aws login to work in wsl. Figure out how to set BROWSER in tmux
+-   [X] Add switch games to list
+-   [X] Get swim trainer for juhi
+-   [ ] Get gift for mary
+-   [X] Test out the internet connection with the new modem
+-   [X] Get k9 to work in wsl.
+-   [ ] Get my [ozforex account reactivated](ozforex accoun reactivated). Call 1300 300 424(Local call)
 
-## Scripting ideas
 
--   Update versions for various and commit/push
--   Look into script to send emails
+## Roadmap
 
-## Data Science ideas
+- Internet
 
--   Build visualization heat map of house prices in Brisbane.
 
 ## Useful references
 
@@ -50,32 +48,45 @@
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
 -   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
--   [ ] Look into some transparent backgrounds once I get Ultra-wide
+-   [ ] Read up on the grokking algo book. Read a chapter a day.
 -   [ ] Plan for setting up the dev environment for data-science.
--   [ ] Look into getting vpn working
+-   [ ] Look into getting vpn working this is only for linux
 -   [ ] Need to connect to Mongo and see whats going with the development instance
 -   [ ] Look into i3
 -   [ ] [Helpful bash](Helpful bash). Ryans find
--   [ ] Look into lazynpm
 -   [ ] Figure out how to look at Redis
 -   [ ] Lunarvim: install apt install python3.10-venv
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
--   [ ] Schedule Smartride
 -   [ ] Look into there be a sql client for vim
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
--   [ ] Learn how sarmed built his API from scratch
+ 
+## Data Science ideas
+
+-   Build visualization heat map of house prices in Brisbane.
+## Scripting ideas
+
+-   Update versions for various and commit/push
+-   Look into script to send emails
 
 ## Done
 
+-   [x] Talk with sarmed and glen to get set up with the pre-authenticated ubuntu instance
+-   [x] Ask lachy what to get juhi
+-   [x] Buy gift for secret santa at work. Shop for something at the mall.
+-   [x] Look into [wayland vs x11 issue.](wayland vs x11 issue.)
+-   [x] Tasks for [setting up windows machine](setting up windows machine)
+-   [x] [New Proposal for ocd-lite](New Proposal for ocd-lite)
+-   [x] [tasks for ocd-chatterbox](tasks for ocd-chatterbox)
+-   [x] [Proposal for ocd-lite](Proposal for ocd-lite)
 -   [x] Figure out how to connect to the eks cluster in window using wsl may need to ask IT about this?
 -   [x] Remove the rowdatapacket stuff from macygrey
 -   [x] Bring scripts from linux
 -   [x] Bring over the insomnia endpoints
     -   [x] Remove games from portable that I won't need.
-- [x] Look into getting a different skin for k9s.
+-   [x] Look into getting a different skin for k9s.
 -   [x] Book the massage. (Booked for friday at 11:00 am need to wait for confirmation)
 -   [x] Figure out how to fetch branches.
 -   [x] Get debugger to work in windows.

@@ -46,10 +46,10 @@ to a database.
 - nl-ocd.server.errors.remove - just database call
 2. Content
 - nl-ocd.content.getSystemListDetails - getSystemListDetails
-- nl-ocd.content.updateSystemLists - 
-- nl-ocd.content.getSystemReport
-- nl-ocd.content.cleanUpDrive
-- nl-ocd.content.delete_files
+- nl-ocd.content.updateSystemLists - policy, updateSystemsController, loadbalancer
+- nl-ocd.content.getSystemReport - FindSystems, policy, loadbalancer
+- nl-ocd.content.cleanUpDrive - policy, cleanUpDrive
+- nl-ocd.content.delete_files - 
 - nl-ocd.content.download_files
 - nl-ocd.content.replaceImages
 - nl-ocd.content.job.kill - just RPC call
