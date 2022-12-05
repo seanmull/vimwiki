@@ -4,12 +4,24 @@
 -   [x] Figure out all the tasks names.
 -   [x] Look into dry run and see if I just want to do that for lite.
 -   [x] Build a more complete list of API calls in insomnia.
+- [ ] Another rmq error with ocd-lite. Error is since event handler is turned off.
 -   [ ] Update Job Send Status Task not supported will skip it.
 -   [ ] Try to start spin up two different application with same code base
 -   [ ] Try to get everything running in dev.
 
 -   [ ] Figure out whats going with rmq error. Cannot know what caused this.
 -   [ ] Run some queries to see if you see any speed difference. Don't think we need this.
+
+
+Issue running ocd-lite
+[2022-12-05T07:27:22.861Z] ERROR: nl-ocd/1174568 on m (/home/seanm@NIGHTLIFE.COM.AU/projects/mono/backend/nl-skeletor/src/rmq-rpc.ts:274): (app_version=1.9.26, instance_id=b6926c60-746d-11ed-848d-416848f60af5, module=rmq_rpc)
+    rmqRpc.genericEventHandler RPCEvent err back, rejecting event  MethodNotFound: MethodNotFound : handleEventNotFound : [nl-ocd-chatterbox.event.update_job_status] queue [nl-ocd.default.event]
+        at new MethodNotFound (/home/seanm@NIGHTLIFE.COM.AU/projects/mono/backend/nl-skeletor/src/errors.ts:58:5)
+        at Rpc.handleEventNotFound (/home/seanm@NIGHTLIFE.COM.AU/projects/mono/backend/nl-skeletor/src/rpc.ts:250:15)
+        at Rpc.handleEvent (/home/seanm@NIGHTLIFE.COM.AU/projects/mono/backend/nl-skeletor/src/rpc.ts:244:19)
+        at wrapper (/home/seanm@NIGHTLIFE.COM.AU/projects/mono/node_modules/lodash/lodash.js:4991:19)
+        at /home/seanm@NIGHTLIFE.COM.AU/projects/mono/backend/nl-skeletor/src/rmq-rpc.ts:394:28
+
 
 Task names
 
