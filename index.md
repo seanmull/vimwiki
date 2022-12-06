@@ -4,6 +4,7 @@
 -   [ ] [Tasks for OCD lite](Tasks for OCD lite)
 - [ ] Pick out one topic from the backend roadmap and write a little about it.
 - [ ] Talk with IT to figure out why VPN is not working well in W11
+- [ ] More bitlocker nonsense
 -   [x] Get docker to work in wsl.
 -   [X] Get aws login to work in wsl. Figure out how to set BROWSER in tmux
 -   [X] Add switch games to list
