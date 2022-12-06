@@ -2,10 +2,11 @@
 
 -   [x] 15 of typing, focus on speed and numbers, special characters
 -   [ ] [Tasks for OCD lite](Tasks for OCD lite)
-- [ ] Figure out why the vpn keeps getting disconnected
+-   [ ] Figure out why the vpn keeps getting disconnected after the OS sleeps.
+-   [ ] The Ecs instance is not connected to the vpn. Need to fix that.
 -   [ ] Pick out one topic from the backend roadmap and write a little about it.
 -   [ ] Get gift for mary
--   [ ] start installing [stuff on the ec2 instance](stuff on the ec2 instance)
+-   [x] start installing [stuff on the ec2 instance](stuff on the ec2 instance)
 -   [ ] Start storing all [the essential stuff from windows](the essential stuff from windows)
 -   [ ] Start storing all the essential stuff from ubuntu at work
 -   [ ] Get my [ozforex account reactivated](ozforex accoun reactivated). Call 1300 300 424(Local call)
