@@ -1,24 +1,19 @@
 ## In work
 
--   [X] 15 of typing, focus on speed and numbers, special characters
+-   [x] 15 of typing, focus on speed and numbers, special characters
 -   [ ] [Tasks for OCD lite](Tasks for OCD lite)
-- [ ] Pick out one topic from the backend roadmap and write a little about it.
-- [ ] Talk with IT to figure out why VPN is not working well in W11
-- [ ] More bitlocker nonsense
--   [x] Get docker to work in wsl.
--   [X] Get aws login to work in wsl. Figure out how to set BROWSER in tmux
--   [X] Add switch games to list
--   [X] Get swim trainer for juhi
+- [ ] Figure out why the vpn keeps getting disconnected
+-   [ ] Pick out one topic from the backend roadmap and write a little about it.
 -   [ ] Get gift for mary
--   [X] Test out the internet connection with the new modem
--   [X] Get k9 to work in wsl.
+-   [ ] start installing [stuff on the ec2 instance](stuff on the ec2 instance)
+-   [ ] Start storing all [the essential stuff from windows](the essential stuff from windows)
+-   [ ] Start storing all the essential stuff from ubuntu at work
 -   [ ] Get my [ozforex account reactivated](ozforex accoun reactivated). Call 1300 300 424(Local call)
-
+-   [ ] Stuff to [install on the windows box](install on the windows box)
 
 ## Roadmap
 
-- Internet
-
+-   Internet
 
 ## Useful references
 
@@ -64,10 +59,11 @@
 -   [ ] Look into there be a sql client for vim
 -   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
- 
+
 ## Data Science ideas
 
 -   Build visualization heat map of house prices in Brisbane.
+
 ## Scripting ideas
 
 -   Update versions for various and commit/push
@@ -75,6 +71,14 @@
 
 ## Done
 
+-   [x] Talk with IT to figure out why VPN is not working well in W11
+-   [x] More bitlocker nonsense
+-   [x] Get docker to work in wsl.
+-   [x] Get aws login to work in wsl. Figure out how to set BROWSER in tmux
+-   [x] Add switch games to list
+-   [x] Get swim trainer for juhi
+-   [x] Test out the internet connection with the new modem
+-   [x] Get k9 to work in wsl.
 -   [x] Talk with sarmed and glen to get set up with the pre-authenticated ubuntu instance
 -   [x] Ask lachy what to get juhi
 -   [x] Buy gift for secret santa at work. Shop for something at the mall.
