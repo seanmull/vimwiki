@@ -1,5 +1,4 @@
-install the config
-install linters-formatters
-install the mono repo
-
+install docker
+install kubectl
+install k9s
 
