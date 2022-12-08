@@ -4,8 +4,8 @@
 -   [x] Figure out all the tasks names.
 -   [x] Look into dry run and see if I just want to do that for lite.
 -   [x] Build a more complete list of API calls in insomnia.
-- [ ] Another rmq error with ocd-lite. Error is since event handler is turned off.
--   [ ] Update Job Send Status Task not supported will skip it.
+- [X] Another rmq error with ocd-lite. Error is since event handler is turned off.
+-   [X] Update Job Send Status Task not supported will skip it.
 -   [ ] Try to start spin up two different application with same code base
 -   [ ] Try to get everything running in dev.
 
