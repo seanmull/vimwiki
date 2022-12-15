@@ -1,25 +1,31 @@
 ## In work
 
--   [ ] Get my [ozforex account reactivated](ozforex accoun reactivated). Call 1300 300 424(Local call)
--   [X] Finish the secret santa gift
--   [X] Tell paul about working half day
--   [X] Print forms
--   [x] 15 of typing, focus on speed and numbers, special characters
--   [ ] [Tasks for OCD lite](Tasks for OCD lite)
--   [X] Figure out why the vpn keeps getting disconnected after the OS sleeps. Prevent it from going to sleep
--   [ ] The Ecs instance is not connected to the vpn. Need to fix that.
--   [ ] Pick out one topic from the backend roadmap and write a little about it.
+-   [X] 15 of typing, focus on speed and numbers, special characters
+-   [X] [Tasks for OCD lite](Tasks for OCD lite)
+- [ ] Start looking into [metrics for OCD](metrics for OCD)
+-   [ ] Test out the docker scripts. Cannot connect to kube API.  
+-   [ ] Buying stuff of lily and ethan
+-   [ ] Come up with some [self study program](self study program) that I can do on the side.
 -   [ ] Get gift for mary
 -   [ ] Get gift for najju
--   [X] Send Mrs [robick about the math](robick about the math)
--   [ ] start installing [stuff on the ec2 instance](stuff on the ec2 instance)
--   [X] Start storing all [the essential stuff from windows](the essential stuff from windows)
--   [ ] Start storing all the essential stuff from ubuntu at work
 -   [ ] Stuff to [install on the windows box](install on the windows box)
 
 ## Roadmap
 
--   Internet
+-   [Internet](Internet)
+-   OS and general knowledge
+-   Javascript
+-   [Helpful bash](Helpful bash)
+-   [Database](Database)
+-   API
+-   Caching
+-   Security
+-   Testing
+-   Design and development principles
+-   RMQ
+-   [Containerization and virtualization](Containerization and virtualization)
+-   Websockets
+-   Webservers
 
 ## Useful references
 
@@ -28,19 +34,12 @@
 -   [Stack Overflow](Stack Overflow)
 -   [set up a typescript project](set up a typescript project)
 -   [Paths and env](Paths and env)
--   [SQL](SQL)
--   [Helpful bash](Helpful bash)
 
 ### Vim
 
 -   Look into useful [vim motions](vim motions) just type :h motion.txt
 -   [Random vim stuff](Random vim stuff)
 -   [nl-test up and running with vim](nl-test up and running with vim)
-
-### Dev-ops
-
--   [Kubernetes](Kubernetes)
--   [K9s](K9s).
 
 ### Backends
 
@@ -51,19 +50,15 @@
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
 -   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
--   [ ] Read up on the grokking algo book. Read a chapter a day.
 -   [ ] Plan for setting up the dev environment for data-science.
--   [ ] Look into getting vpn working this is only for linux
 -   [ ] Need to connect to Mongo and see whats going with the development instance
--   [ ] Look into i3
 -   [ ] [Helpful bash](Helpful bash). Ryans find
--   [ ] Figure out how to look at Redis
+-   [ ] Figure out how to look at Redis. Is there a redis client out there? Maybe through vim.
 -   [ ] Lunarvim: install apt install python3.10-venv
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
 -   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
 -   [ ] Look into there be a sql client for vim
--   [ ] Develop a study plan to [start learning lua](start learning lua) focus on dev for vim
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
 
 ## Data Science ideas
@@ -77,6 +72,20 @@
 
 ## Done
 
+-   [X] Send message back to sis.
+-   [X] Transfer money
+-   [X] Update vim config to look at logs through interface.
+-   [X] Buy meds for najju
+-   [x] Moving the scripts over to the ec2, is there an ftp option.
+-   [x] Not able to install some exe, no access to program files.
+-   [x] Setting up Kubernete on windows
+    -   [x] start installing [stuff on the ec2 instance](stuff on the ec2 instance)
+-   [x] Finish the secret santa gift
+-   [x] Tell paul about working half day
+-   [x] Print forms
+-   [x] Figure out why the vpn keeps getting disconnected after the OS sleeps. Prevent it from going to sleep
+-   [x] Send Mrs [robick about the math](robick about the math)
+-   [x] Start storing all [the essential stuff from windows](the essential stuff from windows)
 -   [x] Talk with IT to figure out why VPN is not working well in W11
 -   [x] More bitlocker nonsense
 -   [x] Get docker to work in wsl.

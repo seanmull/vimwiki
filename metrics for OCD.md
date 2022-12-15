@@ -1,0 +1,2 @@
+- Start looking into nl-rem
+- Look into how to get connected to grafana

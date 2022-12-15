@@ -6,11 +6,10 @@
 -   [x] Build a more complete list of API calls in insomnia.
 - [X] Another rmq error with ocd-lite. Error is since event handler is turned off.
 -   [X] Update Job Send Status Task not supported will skip it.
--   [ ] Try to start spin up two different application with same code base
--   [ ] Try to get everything running in dev.
+-   [X] Try to start spin up two different application with same code base
+-   [X] Try to get everything running in dev.
+- [ ] Update readme.
 
--   [ ] Figure out whats going with rmq error. Cannot know what caused this.
--   [ ] Run some queries to see if you see any speed difference. Don't think we need this.
 
 
 Issue running ocd-lite

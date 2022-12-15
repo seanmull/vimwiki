@@ -13,4 +13,4 @@ Vimwiki
 
 Need to commend out all the mappings in the plugin file
 
-
+ctrl-\ is terminal toggle
