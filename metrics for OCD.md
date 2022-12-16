@@ -1,2 +1,3 @@
 - Start looking into nl-rem
+- Talk to sarmed about it.  I'm not sure if this is what I am looking for.
 - Look into how to get connected to grafana

@@ -1,9 +1,9 @@
 ## In work
 
--   [X] 15 of typing, focus on speed and numbers, special characters
--   [X] [Tasks for OCD lite](Tasks for OCD lite)
-- [ ] Start looking into [metrics for OCD](metrics for OCD)
--   [ ] Test out the docker scripts. Cannot connect to kube API.  
+-   [x] 15 of typing, focus on speed and numbers, special characters
+-   [x] [Tasks for OCD lite](Tasks for OCD lite)
+-   [ ] Start looking into [metrics for OCD](metrics for OCD)
+-   [ ] [Set up wsl](Set up wsl)
 -   [ ] Buying stuff of lily and ethan
 -   [ ] Come up with some [self study program](self study program) that I can do on the side.
 -   [ ] Get gift for mary
@@ -72,10 +72,10 @@
 
 ## Done
 
--   [X] Send message back to sis.
--   [X] Transfer money
--   [X] Update vim config to look at logs through interface.
--   [X] Buy meds for najju
+-   [x] Send message back to sis.
+-   [x] Transfer money
+-   [x] Update vim config to look at logs through interface.
+-   [x] Buy meds for najju
 -   [x] Moving the scripts over to the ec2, is there an ftp option.
 -   [x] Not able to install some exe, no access to program files.
 -   [x] Setting up Kubernete on windows
