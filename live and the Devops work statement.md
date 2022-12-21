@@ -99,4 +99,23 @@ Target json
 { "system": "NMVG02B", "zone": 1 }
 ```
 
+## Brain-storm
+
+- Adding some api.
+- See how its all laid out
+- A month or so until you are comfortable with live
+- Hard to define a goal
+- Visualize where we want we go.
+- How would we design it from scratch.
+- Identify requires and outcomes we want to acheve
+
+## Goals
+
+- Set up the hdms.  Speak with brendon to set up the hdms.  I could IT.
+- Set up the app. In a manner that is connected to production server layer.
+- Switch this to talking to the development namespace.
+
+
+ 
+
 

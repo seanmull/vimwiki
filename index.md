@@ -1,28 +1,24 @@
 ## In work
 
 -   [x] 15 of typing, focus on speed and numbers, special characters
--   [x] [Tasks for OCD lite](Tasks for OCD lite)
--   [ ] Start looking into [metrics for OCD](metrics for OCD)
+-   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] [Set up wsl](Set up wsl)
--   [ ] Buying stuff of lily and ethan
+-   [ ] Get gift for najju. Spa voucher?. [Come up with message to send najju.](Come up with message to send najju.)
+-   [ ] Ask paul if I can do christmas work from home.
 -   [ ] Come up with some [self study program](self study program) that I can do on the side.
--   [ ] Get gift for mary
--   [ ] Get gift for najju
--   [ ] Stuff to [install on the windows box](install on the windows box)
 
 ## Roadmap
 
 -   [Internet](Internet)
--   OS and general knowledge
--   Javascript
--   [Helpful bash](Helpful bash)
+-   [OS and general knowledge](OS and general knowledge)
+-   [Javascript](Javascript)
 -   [Database](Database)
 -   API
 -   Caching
 -   Security
 -   Testing
 -   Design and development principles
--   RMQ
+-   [rabbitMQ](rabbitMQ)
 -   [Containerization and virtualization](Containerization and virtualization)
 -   Websockets
 -   Webservers
@@ -44,15 +40,15 @@
 ### Backends
 
 -   [nl-nessie](nl-nessie)
+-   [nl ocd](nl-ocd)
 
 ## Backlog
 
 -   [ ] [LeetCode](LeetCode), take notes on all problems done so far, proiritize the 44 youTube. Start consider doing this in python
 -   [ ] Schedule a meet up with Deanna before 3pm on the weekend (sunday)
--   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] Plan for setting up the dev environment for data-science.
+-   [ ] Start looking into [metrics for OCD](metrics for OCD)
 -   [ ] Need to connect to Mongo and see whats going with the development instance
--   [ ] [Helpful bash](Helpful bash). Ryans find
 -   [ ] Figure out how to look at Redis. Is there a redis client out there? Maybe through vim.
 -   [ ] Lunarvim: install apt install python3.10-venv
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
@@ -72,6 +68,9 @@
 
 ## Done
 
+-   [x] Buying stuff of lily and ethan. Look lilys list and see what is the most sensible.
+-   [x] Get gift for mary. 100 amazon gift card?
+-   [x] [Tasks for OCD lite](Tasks for OCD lite)
 -   [x] Send message back to sis.
 -   [x] Transfer money
 -   [x] Update vim config to look at logs through interface.

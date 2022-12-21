@@ -1,4 +1,7 @@
--   [ ] Look into c50 understanding technology and take some notes.
--   [ ] Look over 100 concepts to get a better understanding of javascript.
-- [ ] Go over links in the roadmap if I cannot find a better resource.
+-   [x] Look into c50 understanding technology internet.
+-   [X] Look over 100 concepts to get a better understanding of javascript. On static methods
+-   [X] Go into more depth with http and browsers.
+-   [ ] Go through OS and general knowledge stuff
+-   [ ] Practice some sql from a taste of sql
+-   [ ] Look into c50 understanding technology security.
 -   [ ] Read up on the grokking algo book. Read a chapter a day.
