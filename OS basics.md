@@ -3,6 +3,8 @@
 Overview doc
 C:\Downloads\ch1.pptx
 
+[Study guide OS concepts](Study guide OS concepts)
+
 1. Hardware - CPU, memory, I/O
 2. Operating system - controls the hardware among applications
 3. Application programs - define the way system resourses are used
@@ -41,4 +43,3 @@ Sequence of OS
 3. System daemons are fired up.  Daemons are services provided outside of the kernel
 4. Interrupts are sent from software and hardware.
 
-On page 30

@@ -115,7 +115,41 @@ Target json
 - Set up the app. In a manner that is connected to production server layer.
 - Switch this to talking to the development namespace.
 
+Meeting with Sharan
+9:30 - 11:30 M-Th for a month
+Document as we go
+Create quick point - polish up the documents later
 
- 
+intranet can tell me what is assigned to me
+build27
+the monitor hdmi is what the customers see
 
+intranet
+radio icon will tell you the online status
+vnc icon indicated whether you can remote into the systems
 
+## processes for NMS
+
+- hardisks - delphi interfaces, uses txt files to persist data to 
+- bill - billboards - manage the advertising, JPEGS, MPEG-4(Video)
+- eggBP - audio video playback
+- mp  - Applications responsible for media playback
+- hsm - application connects to the live-server
+      sharing messages with the live server
+      - Creates HTTP websocket connections
+      - Passes message to and from harddisk.exe(NMS) to the node-live (Live service)
+      - Messages are JSON documents with 'actor-verb-object-target' structure
+      - Uses SQLlite database along with txt files to persist information to disk
+      - To access the application Left ctrl + Left shift + backspace
+      - This would allow you to look at logs to see if the connectivity to live service
+      - Alt + Tab
+- sap - Local websocket server for apps to connect directly to the NMS crowdDJ Kiosk
+     - A nodeJS runtime environment
+     - Gos around the live server
+- All nms software files are located on N:\video_cd     
+      
+Venue - mulitple systems , multiple people
+Client code is a venue
+Define what systems each person should access
+
+Monday - we can look at the traffic for all the messages that are being sent back

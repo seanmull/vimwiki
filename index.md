@@ -1,10 +1,10 @@
 ## In work
 
 -   [x] 15 of typing, focus on speed and numbers, special characters
+-   [ ] Try to get dadbod working.
 -   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
 -   [ ] [Set up wsl](Set up wsl)
--   [ ] Get gift for najju. Spa voucher?. [Come up with message to send najju.](Come up with message to send najju.)
--   [ ] Ask paul if I can do christmas work from home.
+-   [X] Get gift for najju. Spa voucher?. [Come up with message to send najju.](Come up with message to send najju.)
 -   [ ] Come up with some [self study program](self study program) that I can do on the side.
 
 ## Roadmap
@@ -68,6 +68,7 @@
 
 ## Done
 
+-   [X] Ask paul if I can do christmas work from home.
 -   [x] Buying stuff of lily and ethan. Look lilys list and see what is the most sensible.
 -   [x] Get gift for mary. 100 amazon gift card?
 -   [x] [Tasks for OCD lite](Tasks for OCD lite)
