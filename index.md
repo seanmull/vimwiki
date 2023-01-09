@@ -1,27 +1,46 @@
 ## In work
 
--   [x] 15 of typing, focus on speed and numbers, special characters
--   [ ] Try to get dadbod working.
--   [ ] Discussion regarding [live and the Devops work statement](live and the Devops work statement) Add the notes from later
--   [ ] [Set up wsl](Set up wsl)
--   [X] Get gift for najju. Spa voucher?. [Come up with message to send najju.](Come up with message to send najju.)
--   [ ] Come up with some [self study program](self study program) that I can do on the side.
+Discussion regarding [live and the Devops work statement](live and the Devops work statement)
+[Cloud meeting notes](Cloud meeting notes)
 
-## Roadmap
+-   [x] 15 of typing, focus on speed and numbers, special characters
+-   [ ] Look into issue with the [namespaces](namespaces). Update the jira document then talk to brendon to see if he has other issues
+-   [ ] Set up mobile number. Need to fill out form. Once that has been approved I will need to link the number.
+-   [ ] Ask sarmed to help me set up docker again. Make sure to take some better notes.
+-   [ ] Call up mechanics bank on the 11th. Wait until the check clears then I can close the account
+-   [ ] Work on the [self study program](self study program)
+ 
+
+## Roadmaps
+
+[self study program](self study program)
+
+DevOps
+-   OS concepts
+-   Networking, Security and Protocols
+%% -   How to set up ___
+%% -   Infrastructure as code
+%% -   CI/CD tools
+%% -   Infrastructure monitoring
+%% -   Infrastructure logging
+%% -   AWS
+%% -   Cloud design patterns
+
+Backend
 
 -   [Internet](Internet)
 -   [OS and general knowledge](OS and general knowledge)
 -   [Javascript](Javascript)
 -   [Database](Database)
--   API
--   Caching
--   Security
--   Testing
--   Design and development principles
+%% -   API
+%% -   Caching
+%% -   Security
+%% -   Testing
+%% -   Design and development principles
 -   [rabbitMQ](rabbitMQ)
 -   [Containerization and virtualization](Containerization and virtualization)
--   Websockets
--   Webservers
+%% -   Websockets
+%% -   Webservers
 
 ## Useful references
 
@@ -50,10 +69,11 @@
 -   [ ] Start looking into [metrics for OCD](metrics for OCD)
 -   [ ] Need to connect to Mongo and see whats going with the development instance
 -   [ ] Figure out how to look at Redis. Is there a redis client out there? Maybe through vim.
--   [ ] Lunarvim: install apt install python3.10-venv
+-   [ ] Look into a [load testing the websockets](load testing the websockets)
+-   [ ] Look into [gym deals](gym deals)
 -   [ ] Look into [auditory processing disorder](auditory processing disorder)
--   [ ] Look into grafana https://grafana.prod.nightlifr.com/
 -   [ ] Look over design patterns from fireship io
+-   [ ] Try to get dadbod working.
 -   [ ] Look into there be a sql client for vim
 -   [ ] Make list of [stuff to do to help with kids](stuff to do to help with kids)
 
@@ -68,7 +88,21 @@
 
 ## Done
 
--   [X] Ask paul if I can do christmas work from home.
+-   [X] Place orders by friday for the indian place for cards night. Just send it out before friday.
+-   [x] Respond to [karens request](karens request)
+-   [x] Call up ozfex to see whats going on with the transfer. Waiting for the them to respond with the small transfers
+-   [x] Run test to compare the json in live. Talk to sharan about the status.
+-   [x] Set up heidi sql
+-   [x] Update brainstorming session notes
+-   [x] Connecting to production cluster.
+-   [x] Test out different connections from the manual.
+-   [x] Talk with IT about setting up the router to point to a different non-conflicting IP
+-   [x] Buy algo expert for 1 year. I archived the email
+-   [x] Tpg set up autopay. It looks like it is already set up ask Najju
+-   [x] Check us accounts, make sure the credit cards are showing zero balance
+-   [x] [Set up wsl](Set up wsl)
+-   [x] Get gift for najju. Spa voucher?. [Come up with message to send najju.](Come up with message to send najju.)
+-   [x] Ask paul if I can do christmas work from home.
 -   [x] Buying stuff of lily and ethan. Look lilys list and see what is the most sensible.
 -   [x] Get gift for mary. 100 amazon gift card?
 -   [x] [Tasks for OCD lite](Tasks for OCD lite)

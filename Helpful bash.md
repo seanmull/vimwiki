@@ -106,6 +106,15 @@ basename -s .JPG -a *.JPG | xargs -n1 -i mv {}.JPG {}.jpg
 The first stdio the prefix only and pipes it in as args to the second command.
 It changes the file extention
 - find -
+
+## Looping
+
+```bash
+# Syntax for looping through an array
+for t in ${allThreads[@]}; do
+  ./pipeline --threads $t
+done
+```
  
 ## Bash utilities
 

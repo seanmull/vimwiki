@@ -1,7 +1,7 @@
 -   [x] Look into c50 understanding technology internet.
--   [X] Look over 100 concepts to get a better understanding of javascript. On static methods
--   [X] Go into more depth with http and browsers.
+-   [x] Look over 100 concepts to get a better understanding of javascript. On static methods
+-   [x] Go into more depth with http and browsers.
+-   [ ] Algo expert instead
 -   [ ] Go through OS and general knowledge stuff
 -   [ ] Practice some sql from a taste of sql
 -   [ ] Look into c50 understanding technology security.
--   [ ] Read up on the grokking algo book. Read a chapter a day.
